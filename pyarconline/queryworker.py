@@ -4,11 +4,12 @@ import queue
 import threading
 import sqlite3
 import time
-import pdb
 
-from pyarconline.utils import WebapiUtils, SongList, DifficultyRatingList, FriendManager, check_response
+from pyarconline import WebapiUtils, SongList, DifficultyRatingList, FriendManager, exceptions
+from .config import SAVE_PATH
+from .utils import check_response
 
-conn = sqlite3.connect('./save/b30data.db', check_same_thread=False)
+conn = sqlite3.connect(SAVE_PATH + '/b30data.db', check_same_thread=False)
 cursor = conn.cursor()
 sem1 = multiprocessing.Semaphore(0)
 sem2 = multiprocessing.Semaphore(0)
@@ -82,7 +83,8 @@ class QueryWorker(threading.Thread):
                     if 20 + int(10 * float(curr_rating)) <= int(10 * b30_low_potential):
                         print("break", 20 + int(10 * float(curr_rating)), int(10 * b30_low_potential))
                         break
-                    if (curr_idx, curr_difficulty) in rows_dict and last_active <= rows_dict[(curr_idx, curr_difficulty)][5]:
+                    if (curr_idx, curr_difficulty) in rows_dict and last_active <= \
+                            rows_dict[(curr_idx, curr_difficulty)][5]:
                         print("continue")
                         continue
                     curr_potential = self.update(curr_idx, curr_id, curr_difficulty, user_id, curr_rating, tables)
@@ -97,7 +99,8 @@ class QueryWorker(threading.Thread):
                     curr_id = curr_song["id"]
                     curr_idx = curr_song["idx"]
                     curr_difficulty = curr_song["difficulty"]
-                    if (curr_idx, curr_difficulty) in rows_dict and last_active <= rows_dict[(curr_idx, curr_difficulty)][5]:
+                    if (curr_idx, curr_difficulty) in rows_dict and last_active <= \
+                            rows_dict[(curr_idx, curr_difficulty)][5]:
                         print("continue")
                         continue
                     self.update(curr_idx, curr_id, curr_difficulty, user_id, curr_rating, tables)
@@ -143,6 +146,11 @@ class QueryWorker(threading.Thread):
         else:
             ans = max(0.0, real_rating + (score - 9500000) / 300000)
         return round(ans, 5)
+
+
+class DrawingWorker(threading.Thread):
+    def __init__(self):
+        threading.Thread.__init__(self)
 
 
 class WorkerLauncher:

@@ -61,3 +61,12 @@ class LoginError(PyarconlineException):
 
     def __repr__(self):
         return f"{self.__class__.__name__}()"
+
+
+class WorkLoadExistsError(PyarconlineException):
+    def __init__(self, workload_dict):
+        self.workload = workload_dict
+        super().__init__(f'Work load {workload_dict} already exists!')
+
+    def __repr__(self):
+        return f"{self.__class__.__name__}(workload_dict={self.workload})"

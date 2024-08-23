@@ -6,13 +6,10 @@ import requests
 import requests.utils
 import requests.cookies
 import json
-
 from bs4 import BeautifulSoup
-
-from pyarconline import exceptions
 import os
-
-SAVE_PATH = './save'
+from pyarconline import exceptions
+from .config import SAVE_PATH
 
 
 def check_response(response):
@@ -262,7 +259,6 @@ class FriendManager:
         raise exceptions.FriendNotFoundError(name)
 
 
-
 class DifficultyRatingList:
     def __init__(self, songList: SongList):
         if not os.path.exists(SAVE_PATH):
@@ -287,7 +283,7 @@ class DifficultyRatingList:
     def __len__(self):
         return len(self.rating_list)
 
-    async def save(self):
+    def save(self):
         with open(SAVE_PATH + '/ratings.json', 'w', encoding='UTF-8') as f:
             content = {'version': self.version, 'value': self.rating_list}
             json.dump(content, f, indent=4)
@@ -299,7 +295,7 @@ class DifficultyRatingList:
         Please use this function with caution, and ensure to handle potential exceptions or errors that may arise.
         """
         # back_up
-        await self.save()
+        self.save()
         with open(SAVE_PATH + '/ratings.json', 'rb') as source, open(SAVE_PATH + '/ratings_old.json', 'wb') as target:
             target.write(source.read())
         self.version = "0.0"
@@ -349,4 +345,4 @@ class DifficultyRatingList:
                 title = self.song_list.get_song_name(song_idx, is_beyond, 'en')
                 self.rating_list.append(
                     {'idx': song_idx, 'id': song_id, 'title': title, 'difficulty': difficulty, 'rating': rating})
-        await self.save()
+        self.save()
