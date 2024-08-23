@@ -1,0 +1,14 @@
+.vscode/
+.idea/
+
+.venv
+.env
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+pyarconline/__pycache__/
+save/
+*.ipynb
