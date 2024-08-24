@@ -134,6 +134,9 @@ class SongList:
     def __getitem__(self, idx: int):
         return self.song_list[idx]
 
+    def __iter__(self):
+        return iter(self.song_list)
+
     async def get_song_info(self, *args):
         """
         accept one parameter, which is either idx or id.
@@ -179,7 +182,7 @@ class SongList:
 
     async def get_song_id_idx(self, song_name: str, is_beyond: bool):
         for song in self.song_list:
-            curr_song_name = self.get_song_name(song['idx'], is_beyond, 'ja')
+            curr_song_name = await self.get_song_name(song['idx'], is_beyond, 'ja')
             if song_name == curr_song_name:
                 return song['id'], song['idx']
         raise exceptions.SongNotFoundError(song_name)
@@ -283,6 +286,9 @@ class DifficultyRatingList:
     def __len__(self):
         return len(self.rating_list)
 
+    def __iter__(self):
+        return iter(self.rating_list)
+
     def save(self):
         with open(SAVE_PATH + '/ratings.json', 'w', encoding='UTF-8') as f:
             content = {'version': self.version, 'value': self.rating_list}
@@ -296,7 +302,8 @@ class DifficultyRatingList:
         """
         # back_up
         self.save()
-        with open(SAVE_PATH + '/ratings.json', 'rb') as source, open(SAVE_PATH + '/ratings_old.json', 'wb') as target:
+        with (open(SAVE_PATH + '/ratings.json', 'rb', encoding='UTF-8') as source,
+              open(SAVE_PATH + '/ratings_old.json', 'wb', encoding='UTF-8') as target):
             target.write(source.read())
         self.version = "0.0"
         self.rating_list = []
@@ -331,18 +338,22 @@ class DifficultyRatingList:
                     difficulty = 3
                 elif difficulty == 'Slateblue':
                     difficulty = 4
-                title = title.replace('<br class="spacer"/>', ' ')
+                title_space = title.replace('<br class="spacer"/>', ' ')
+                title_nospace = title.replace('<br class="spacer"/>', '')
                 # 'foreign key'
                 is_beyond = False
                 if difficulty == 3:
                     is_beyond = True
                 try:
-                    song_id, song_idx = self.song_list.get_song_id_idx(title, is_beyond)
-                except Exception as e:
-                    print(e)
-                    song_idx = int(input(f"Song {title} not found in database, please specify its idx."))
-                    song_id = (await self.song_list.get_song_info(song_idx))['id']
-                title = self.song_list.get_song_name(song_idx, is_beyond, 'en')
+                    song_id, song_idx = await self.song_list.get_song_id_idx(title_space, is_beyond)
+                except Exception:
+                    try:
+                        song_id, song_idx = await self.song_list.get_song_id_idx(title_nospace, is_beyond)
+                    except Exception as e:
+                        print(e)
+                        song_idx = int(input(f"Song {title_nospace} not found in database, please specify its idx."))
+                        song_id = (await self.song_list.get_song_info(song_idx))['id']
+                    title_space = await self.song_list.get_song_name(song_idx, is_beyond, 'en')
                 self.rating_list.append(
-                    {'idx': song_idx, 'id': song_id, 'title': title, 'difficulty': difficulty, 'rating': rating})
+                    {'idx': song_idx, 'id': song_id, 'title': title_space, 'difficulty': difficulty, 'rating': rating})
         self.save()

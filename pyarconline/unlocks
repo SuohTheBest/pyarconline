@@ -5297,6 +5297,110 @@
           "credit": 180
         }
       ]
+    },
+    {
+      "songId": "judgement",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 0,
+          "credit": 50
+        }
+      ]
+    },
+    {
+      "songId": "judgement",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "invain",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "hypnotize",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "ashenboundary",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 150
+        }
+      ]
+    },
+    {
+      "songId": "alterego",
+      "ratingClass": 0,
+      "conditions": [
+        {
+          "type": 111
+        },
+        {
+          "type": 112
+        }
+      ]
+    },
+    {
+      "songId": "alterego",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "judgement",
+          "song_difficulty": 1,
+          "grade": 0
+        },
+        {
+          "type": 111
+        },
+        {
+          "type": 112
+        }
+      ]
+    },
+    {
+      "songId": "alterego",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "judgement",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 111
+        },
+        {
+          "type": 112
+        }
+      ]
+    },
+    {
+      "songId": "alterego",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "judgement",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 111
+        },
+        {
+          "type": 112
+        }
+      ]
     }
   ]
 }

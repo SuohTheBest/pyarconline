@@ -17,7 +17,7 @@ class ArcOnlineHelper:
         response = self.webapi.login(username, password)
         is_logged_in = response['isLoggedIn']
         if not is_logged_in:
-            raise exceptions.LoginError
+            raise LoginError
 
     async def handle_task(self, name: str, work_type: str):
         print("started.")
