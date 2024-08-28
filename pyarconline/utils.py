@@ -159,7 +159,7 @@ class SongList:
         else:
             raise TypeError('Invalid arguments')
 
-    async def get_song_name(self, song_idx: int, is_beyond: bool, country: str = 'en'):
+    def get_song_name(self, song_idx: int, is_beyond: bool, country: str = 'en'):
         song = self.song_list[song_idx]
         if country in song['title_localized']:
             song_name = song['title_localized'][country]
@@ -182,7 +182,7 @@ class SongList:
 
     async def get_song_id_idx(self, song_name: str, is_beyond: bool):
         for song in self.song_list:
-            curr_song_name = await self.get_song_name(song['idx'], is_beyond, 'ja')
+            curr_song_name = self.get_song_name(song['idx'], is_beyond, 'ja')
             if song_name == curr_song_name:
                 return song['id'], song['idx']
         raise exceptions.SongNotFoundError(song_name)
@@ -353,7 +353,7 @@ class DifficultyRatingList:
                         print(e)
                         song_idx = int(input(f"Song {title_nospace} not found in database, please specify its idx."))
                         song_id = (await self.song_list.get_song_info(song_idx))['id']
-                    title_space = await self.song_list.get_song_name(song_idx, is_beyond, 'en')
+                    title_space = self.song_list.get_song_name(song_idx, is_beyond, 'en')
                 self.rating_list.append(
                     {'idx': song_idx, 'id': song_id, 'title': title_space, 'difficulty': difficulty, 'rating': rating})
         self.save()

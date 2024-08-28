@@ -1,7 +1,7 @@
 import asyncio
 from pyarconline.utils import *
 from pyarconline.exceptions import *
-from pyarconline.queryworker import WorkerLauncher
+from pyarconline.worker import WorkerLauncher
 
 
 class ArcOnlineHelper:

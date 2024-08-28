@@ -11,4 +11,5 @@ venv.bak/
 
 pyarconline/__pycache__/
 save/
+
 *.ipynb
