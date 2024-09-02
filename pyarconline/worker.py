@@ -1,6 +1,5 @@
 import datetime
 import heapq
-import math
 import multiprocessing
 import os
 import queue
@@ -9,32 +8,14 @@ import sqlite3
 import time
 from PIL import Image, ImageFont, ImageDraw
 
-from pyarconline import WebapiUtils, SongList, DifficultyRatingList, FriendManager, exceptions
-from .config import SAVE_PATH, ASSETS_PATH, FONT_PATH, CHARACTER_PATH
+from pyarconline import WebapiUtils, SongList, DifficultyRatingList, FriendManager
+from .config import ASSETS_PATH, CHARACTER_PATH, IMG_SAVE_PATH, DB_PATH, CHIERI_BG_PATH, CHIERI_MASK_PATH, \
+    get_diamond_path, SansSerifFLF_PATH, OpenSans_Regular_PATH, Roboto_Light_PATH, Exo_Regular_PATH, CHIERI_TABLE_PATH, \
+    get_cover_path, get_diff_path, get_grade_path
 from .utils import check_response
 
-conn = sqlite3.connect(SAVE_PATH + '/b30data.db', check_same_thread=False)
-cursor = conn.cursor()
 sem1 = multiprocessing.Semaphore(0)
 sem2 = multiprocessing.Semaphore(0)
-
-
-def create_score_table(name: str):
-    cursor.execute(f'''
-    CREATE TABLE IF NOT EXISTS {name} (
-        idx INTEGER NOT NULL,
-        difficulty KEY NOT NULL,
-        title TEXT NOT NULL,
-        rating TEXT NOT NULL,
-        play_time INTEGER NOT NULL,
-        time_stamp INTEGER NOT NULL,
-        score INTEGER NOT NULL,
-        clear_type INTEGER NOT NULL,
-        potential REAL NOT NULL,
-        PRIMARY KEY (idx, difficulty)
-        )
-    ''')
-    conn.commit()
 
 
 def average(lst):
@@ -43,32 +24,39 @@ def average(lst):
 
 class QueryWorker(threading.Thread):
     def __init__(self, name: str, q: queue.Queue, song_list: SongList, difficulty_rating: DifficultyRatingList,
-                 webapi: WebapiUtils, friend_manager: FriendManager):
+                 webapi: WebapiUtils):
         threading.Thread.__init__(self, name=name)
         self.queue = q
         self.song_list = song_list
         self.difficulty_rating = difficulty_rating
         self.webapi = webapi
-        self.friend_manager = friend_manager
+        self.q2 = queue.Queue()
+        self.conn = sqlite3.connect(DB_PATH, check_same_thread=False)
+        self.cursor = self.conn.cursor()
+        self.drawing_worker = DrawingWorker("drawing-worker of " + name, self.q2, song_list)
+        self.drawing_worker.start()
 
     def run(self):
         while True:
             sem1.acquire()
-            workload = self.queue.get()
-            user_id = workload['user_id']
+            workload = self.queue.get()  # work_type + friend
             work_type = workload['work_type']
-            rating = workload['rating']
-            last_active = workload['last_active']
+            friend = workload['friend']
+            user_id = friend['user_id']
+            _score = friend["recent_score"][0]
+            last_active = 0
+            if "time_played" in _score:
+                last_active = _score["time_played"]
             table_name = 'scoreTable_' + str(user_id)
-            create_score_table(table_name)
-            cursor.execute(f'''
+            self.create_score_table(table_name)
+            self.cursor.execute(f'''
             SELECT * FROM {table_name} ORDER BY potential DESC
             ''')
-            rows = cursor.fetchall()
-            cursor.execute('''
+            rows = self.cursor.fetchall()
+            self.cursor.execute('''
             SELECT name FROM sqlite_master WHERE type='table'
             ''')
-            tables = [t[0] for t in cursor.fetchall()]
+            tables = [t[0] for t in self.cursor.fetchall()]
             rows_dict = {(row[0], row[1]): row for row in rows}
             priority_queue = []
             song_size = len(self.difficulty_rating)
@@ -100,6 +88,8 @@ class QueryWorker(threading.Thread):
                         heapq.heappush(priority_queue, curr_potential)
                     if len(priority_queue) > 30:
                         heapq.heappop(priority_queue)
+                self.q2.put(workload)
+                sem2.release()
             elif work_type == 'all':
                 for i in range(song_size):
                     curr_song = self.difficulty_rating[i]
@@ -113,7 +103,7 @@ class QueryWorker(threading.Thread):
                         continue
                     self.update(curr_idx, curr_id, curr_difficulty, user_id, curr_rating, tables)
 
-            conn.commit()
+            self.conn.commit()
 
     def update(self, idx: int, song_id: str, difficulty: int, user_id: int, rating: str, tables):
         response = self.webapi.friend_rank_score(song_id, difficulty)
@@ -131,7 +121,7 @@ class QueryWorker(threading.Thread):
             curr_potential = self.count_potential(score, rating)
             if curr_user_id == user_id:
                 potential = curr_potential
-            cursor.execute(f'''
+            self.cursor.execute(f'''
             INSERT INTO {curr_table_name} (idx, difficulty, title, rating, play_time, time_stamp, score, clear_type, potential)
             VALUES (?,?,?,?,?,?,?,?,?)
             ON CONFLICT (idx,difficulty)
@@ -139,14 +129,30 @@ class QueryWorker(threading.Thread):
             ''', (
                 idx, difficulty, song_id, rating, item["time_played"], timestamp, score,
                 item["best_clear_type"], curr_potential))
-        conn.commit()
-        time.sleep(1)
+        self.conn.commit()
+        time.sleep(0.5)
         return potential
+
+    def create_score_table(self, name: str):
+        self.cursor.execute(f'''
+        CREATE TABLE IF NOT EXISTS {name} (
+            idx INTEGER NOT NULL,
+            difficulty KEY NOT NULL,
+            title TEXT NOT NULL,
+            rating TEXT NOT NULL,
+            play_time INTEGER NOT NULL,
+            time_stamp INTEGER NOT NULL,
+            score INTEGER NOT NULL,
+            clear_type INTEGER NOT NULL,
+            potential REAL NOT NULL,
+            PRIMARY KEY (idx, difficulty)
+            )
+        ''')
+        self.conn.commit()
 
     @staticmethod
     def count_potential(score: int, rating: str):
         real_rating = float(rating)
-        ans = 0.0
         if score >= 10000000:
             ans = real_rating + 2.0
         elif score >= 9800000:
@@ -161,18 +167,40 @@ class DrawingWorker(threading.Thread):
         threading.Thread.__init__(self, name=name)
         self.q: queue.Queue = q
         self.song_list = song_list
+        self.conn = sqlite3.connect(DB_PATH, check_same_thread=False)
+        self.cursor = self.conn.cursor()
+        if not os.path.exists(IMG_SAVE_PATH):
+            os.mkdir(IMG_SAVE_PATH)
 
-    def draw_b30(self, user_id: int, user_name: str, user_code: int, rating: int,
+    def run(self):
+        while True:
+            sem2.acquire()
+            workload = self.q.get()
+            work_type = workload['work_type']
+            friend = workload['friend']
+            if work_type == 'b30':
+                user_id = friend['user_id']
+                user_name = friend['name']
+                # todo : can be improved
+                self.cursor.execute(f'''SELECT user_code FROM user WHERE user_id = {user_id}''')
+                user_code = self.cursor.fetchone()[0]
+                rating = friend['rating']
+                character_id = friend['character']
+                is_uncapped = friend['is_char_uncapped']
+                img = self.draw_b30(user_id, user_name, user_code, rating, character_id, is_uncapped)
+                file_name = user_name + "_" + str(user_id) + '.png'
+                img.save(os.path.join(IMG_SAVE_PATH, file_name))
+
+    def draw_b30(self, user_id: int, user_name: str, user_code: str, rating: int,
                  character_id: int,
-                 is_character_uncapped=False,
+                 is_character_uncapped,
                  style='chieri'):
         table_name = 'scoreTable_' + str(user_id)
-        cursor.execute(f'''SELECT * FROM {table_name} ORDER BY potential DESC LIMIT 33''')
-        rows = cursor.fetchall()
+        self.cursor.execute(f'''SELECT * FROM {table_name} ORDER BY potential DESC LIMIT 33''')
+        rows = self.cursor.fetchall()
         if style == 'chieri':
             # 1. create bg
-            BG_PATH = ASSETS_PATH + '/b30/chieri/bg.png'
-            ans = Image.open(BG_PATH).convert('RGBA')
+            ans = Image.open(CHIERI_BG_PATH).convert('RGBA')
             # 2. draw b30
             start_x = 108
             start_y = 823
@@ -190,35 +218,35 @@ class DrawingWorker(threading.Thread):
                 single = self.draw_single_b30(rows[i], i + 1)
                 ans.paste(single, (start_x + 542 * (i % 3), 4010), single)
             # 4. draw diamond
-            DIAMOND_PATH = ASSETS_PATH + "/diamonds/rating_" + self.get_diamond(rating) + ".png"
+            DIAMOND_PATH = get_diamond_path(self.get_diamond(rating))
             diamond = Image.open(DIAMOND_PATH).convert('RGBA').resize((357, 357))
             ans.alpha_composite(diamond, (127, 136))
             # 5. write user_name
-            SansSerifFLF = ImageFont.truetype(FONT_PATH + 'SansSerifFLF.otf', 104)
+            SansSerifFLF = ImageFont.truetype(SansSerifFLF_PATH, 104)
             draw = ImageDraw.Draw(ans)
             draw.text((462, 209), user_name, (255, 255, 255), SansSerifFLF)
             # 6. write user_code
-            SansSerifFLF = ImageFont.truetype(FONT_PATH + 'SansSerifFLF.otf', 61)
+            SansSerifFLF = ImageFont.truetype(SansSerifFLF_PATH, 61)
             draw.text((455, 326), self.user_code2str(user_code), (255, 255, 255), SansSerifFLF)
             # 7. write rating
-            SansSerifFLF = ImageFont.truetype(FONT_PATH + 'SansSerifFLF.otf', 90)
+            SansSerifFLF = ImageFont.truetype(SansSerifFLF_PATH, 90)
             self.write_boarder(draw, (191, 270), self.rating2str(rating), (255, 255, 255), SansSerifFLF, (98, 8, 98))
             # 8. write b30 and max_b30
             b30 = b30_sum / 30
             r10 = 4 * (rating / 100 - 0.75 * b30)
-            SansSerifFLF = ImageFont.truetype(FONT_PATH + 'SansSerifFLF.otf', 77)
+            SansSerifFLF = ImageFont.truetype(SansSerifFLF_PATH, 77)
             draw.text((450, 547), str(round(b30, 3)), (255, 255, 255), SansSerifFLF)
             draw.text((450, 637), str(round(r10, 3)), (255, 255, 255), SansSerifFLF)
             # 9. write max_b30
             max_b30 = (b30_sum + b10_sum) / 40
-            SansSerifFLF = ImageFont.truetype(FONT_PATH + 'SansSerifFLF.otf', 49)
+            SansSerifFLF = ImageFont.truetype(SansSerifFLF_PATH, 49)
             draw.text((884, 648), str(round(max_b30, 3)), (255, 255, 255), SansSerifFLF)
             # 10. draw character
             char_name = str(character_id)
             if is_character_uncapped:
                 char_name += 'u'
             char_name += '.png'
-            char_path = CHARACTER_PATH + char_name
+            char_path = os.path.join(CHARACTER_PATH, char_name)
             if os.path.exists(char_path):
                 character = Image.open(char_path).convert('RGBA').resize((684, 684))
                 ans.alpha_composite(character, (1154, 119))
@@ -233,11 +261,7 @@ class DrawingWorker(threading.Thread):
         potential = data_row[8]
         play_time = int(data_row[4] / 1000)
         title = self.song_list.get_song_name(idx, difficulty == 3)
-        COVER_PATH = ASSETS_PATH + "/songs/" + id + "_" + str(difficulty) + ".jpg"
-        if not os.path.exists(COVER_PATH):
-            COVER_PATH = ASSETS_PATH + "/songs/" + id + ".jpg"
-        if not os.path.exists(COVER_PATH):
-            COVER_PATH = ASSETS_PATH + "/songs/random.jpg"
+        COVER_PATH = get_cover_path(id, difficulty)
 
         if style == 'chieri':
             # 1. cover process
@@ -251,44 +275,42 @@ class DrawingWorker(threading.Thread):
             cover.putalpha(gradient)
             ans.paste(cover, (260, 0), cover)
             # 2. paste table
-            TABLE_PATH = ASSETS_PATH + "/b30/chieri/table.png"
-            table = Image.open(TABLE_PATH).convert('RGBA')
+            table = Image.open(CHIERI_TABLE_PATH).convert('RGBA')
             ans.paste(table, (0, 0), table)
             # 3. paste diff
-            DIFF_PATH = ASSETS_PATH + "/diff/diff_" + str(difficulty) + ".png"
+            DIFF_PATH = get_diff_path(difficulty)
             diff = Image.open(DIFF_PATH).convert('RGBA')
             ans.paste(diff, (18, 22), diff)
             # 4. paste grade
-            GRADE_PATH = ASSETS_PATH + f"/grade/grade_{self.get_grade(score)}.png"
+            GRADE_PATH = get_grade_path(self.get_grade(score))
             grade = Image.open(GRADE_PATH).convert('RGBA').resize((110, 53))
             ans.paste(grade, (48, 157), grade)
             # 5. write title
-            roboto_light = ImageFont.truetype(FONT_PATH + "Roboto-Light.ttf", size=37)
+            roboto_light = ImageFont.truetype(Roboto_Light_PATH, size=37)
             draw = ImageDraw.Draw(ans)
             color = self.choose_text_color(avg_color)
             draw.text((41, 21), title, fill=color, font=roboto_light)
             # 6. write score
-            roboto_light = ImageFont.truetype(FONT_PATH + "Roboto-Light.ttf", size=51)
+            roboto_light = ImageFont.truetype(Roboto_Light_PATH, size=51)
             draw.text((37, 64), self.score2str(score), fill=color, font=roboto_light)
             # 7. write rating
-            exo_regular = ImageFont.truetype(FONT_PATH + "Exo-Regular.ttf", size=23)
+            exo_regular = ImageFont.truetype(Exo_Regular_PATH, size=23)
             draw.text((213, 147), rating, fill=color, font=exo_regular)
             # 8. write potential
-            exo_regular = ImageFont.truetype(FONT_PATH + "Exo-Regular.ttf", size=37)
+            exo_regular = ImageFont.truetype(Exo_Regular_PATH, size=37)
             draw.text((262, 128), '> ' + str(round(potential, 2)), fill=color, font=exo_regular)
             # 9. write time
-            exo_regular = ImageFont.truetype(FONT_PATH + "Exo-Regular.ttf", size=21)
+            exo_regular = ImageFont.truetype(Exo_Regular_PATH, size=21)
             dt_object = datetime.datetime.fromtimestamp(play_time)
             formatted_time = dt_object.strftime('%Y-%m-%d %H:%M:%S')
             draw.text((213, 204), formatted_time, fill=color, font=exo_regular)
             # 10. write index
-            opensans = ImageFont.truetype(FONT_PATH + "OpenSans-Regular.ttf", size=28)
+            opensans = ImageFont.truetype(OpenSans_Regular_PATH, size=28)
             shadow_color = (98, 8, 98)
             text = '#' + str(index)
             self.write_boarder(draw, (442, 202), text, (255, 255, 255), opensans, shadow_color)
             # 11. apply mask
-            MASK_PATH = ASSETS_PATH + "/b30/chieri/mask.png"
-            mask = Image.open(MASK_PATH).convert('L')
+            mask = Image.open(CHIERI_MASK_PATH).convert('L')
             ans.putalpha(mask)
             return ans
 
@@ -360,9 +382,8 @@ class DrawingWorker(threading.Thread):
         return formatted_number
 
     @staticmethod
-    def user_code2str(user_code: int):
-        temp = str(user_code)
-        return f"{temp[:3]} {temp[3:6]} {temp[6:]}"
+    def user_code2str(user_code: str):
+        return f"{user_code[:3]} {user_code[3:6]} {user_code[6:]}"
 
     @staticmethod
     def rating2str(rating: int):
@@ -393,16 +414,10 @@ class WorkerLauncher:
                  webapi: WebapiUtils, friend_manager: FriendManager):
         self.q = queue.Queue()
         self.friend_manager = friend_manager
-        self.query_worker = QueryWorker("query-worker", self.q, song_list, difficulty_rating, webapi, friend_manager)
+        self.query_worker = QueryWorker("query-worker", self.q, song_list, difficulty_rating, webapi)
         self.query_worker.start()
 
     async def start_task(self, user_id: int, work_type: str):
         friend = await self.friend_manager.get_friend_info(user_id)
-        rating = friend["rating"]
-        _score = friend["recent_score"][0]
-        last_active = 0
-        if "time_played" in _score:
-            last_active = _score["time_played"]
-        self.q.put({"user_id": user_id, "work_type": work_type, "rating": rating, "last_active": last_active,
-                    "name": friend["name"], "character": friend["character"]})
+        self.q.put({"work_type": work_type, "friend": friend})
         sem1.release()

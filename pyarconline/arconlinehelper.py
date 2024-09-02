@@ -1,7 +1,10 @@
 import asyncio
+import atexit
+import sqlite3
 from pyarconline.utils import *
 from pyarconline.exceptions import *
 from pyarconline.worker import WorkerLauncher
+from pyarconline.config import DB_PATH
 
 
 class ArcOnlineHelper:
@@ -12,6 +15,22 @@ class ArcOnlineHelper:
         self.login(username, password)
         self.friend_manager = FriendManager(self.webapi)
         self.launcher = WorkerLauncher(song_list, self.difficulty_rating, self.webapi, self.friend_manager)
+        self.conn = sqlite3.connect(DB_PATH, check_same_thread=False)
+        self.c = self.conn.cursor()
+        self._init_db()
+        atexit.register(self._exit)
+
+    def _exit(self):
+        self.friend_manager.save_mapping()
+
+    def _init_db(self):
+        self.c.execute('''
+        CREATE TABLE IF NOT EXISTS user(
+        id TEXT PRIMARY KEY NOT NULL,
+        user_id INTEGER NOT NULL,
+        user_code TEXT NOT NULL
+        )''')
+        self.conn.commit()
 
     def login(self, username, password):
         response = self.webapi.login(username, password)
@@ -23,3 +42,13 @@ class ArcOnlineHelper:
         print("started.")
         user_id = await self.friend_manager.get_friend_id(name)
         await self.launcher.start_task(user_id, work_type)
+
+    async def add_friend(self, friend_code: str, identifier: str = ''):
+        friend_id = await self.friend_manager.add_friend(friend_code)
+        if identifier == '':
+            identifier = str(friend_id)
+        self.c.execute('''
+            INSERT INTO user (id, user_id, user_code) VALUES (?, ?, ?)
+        ''', (identifier, friend_id, friend_code))
+        self.conn.commit()
+        return identifier

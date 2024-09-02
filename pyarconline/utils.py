@@ -9,7 +9,7 @@ import json
 from bs4 import BeautifulSoup
 import os
 from pyarconline import exceptions
-from .config import SAVE_PATH
+from .config import SAVE_PATH, FRIEND_LIST_PATH, RATINGS_PATH, RATINGS_OLD_PATH
 
 
 def check_response(response):
@@ -194,12 +194,12 @@ class FriendManager:
             os.makedirs(SAVE_PATH)
         self.recent_use = {}
         try:
-            with open(SAVE_PATH + '/friendlist.json', 'r') as f:
+            with open(FRIEND_LIST_PATH, 'r') as f:
                 content = json.load(f)
                 for item in content:
                     self.recent_use[item['friend_id']] = item['recent_use']
         except FileNotFoundError:
-            with open(SAVE_PATH + '/friendlist.json', 'w') as f:
+            with open(FRIEND_LIST_PATH, 'w') as f:
                 f.write('[]')
         self.webapi = webapi
         # you should log in first!
@@ -216,7 +216,7 @@ class FriendManager:
         json_array = [{"friend_id": friend_id, "recent_use": recent_use} for
                       friend_id, recent_use in
                       self.recent_use.items()]
-        with open(SAVE_PATH + '/friendlist.json', 'w') as json_file:
+        with open(FRIEND_LIST_PATH, 'w') as json_file:
             json.dump(json_array, json_file, indent=4)
 
     async def delete_friend_least_used(self):
@@ -231,12 +231,22 @@ class FriendManager:
             await self.delete_friend_least_used()
         if not friend_code.isdigit() or len(friend_code) != 9:
             raise exceptions.FriendcodeError(friend_code)
+        old_ids = []
+        for friend in self.friends:
+            old_ids.append(friend['user_id'])
         response = self.webapi.add_friend(friend_code)
         check_response(response)
         self.friends = response['value']['friends']
-        friend_id = self.friends[-1]['user_id']
-        self.recent_use[friend_id] = time.time()
+        new_user = -1
+        for friend in self.friends:
+            if friend['user_id'] not in old_ids:
+                new_user = friend['user_id']
+                break
+        self.recent_use[new_user] = time.time()
         self.curr_friend += 1
+        if new_user == -1:
+            raise exceptions.PyarconlineException("Unknown Error. Unable to add friend.")
+        return new_user
 
     async def record(self, friend_id: int):
         self.recent_use[friend_id] = time.time()
@@ -270,7 +280,7 @@ class DifficultyRatingList:
         self.version = "0.0"
         self.song_list = songList
         try:
-            with open(SAVE_PATH + '/ratings.json', 'r', encoding='UTF-8') as f:
+            with open(RATINGS_PATH, 'r', encoding='UTF-8') as f:
                 ratings = json.load(f)
                 self.rating_list = ratings['value']
                 self.version = ratings['version']
@@ -290,7 +300,7 @@ class DifficultyRatingList:
         return iter(self.rating_list)
 
     def save(self):
-        with open(SAVE_PATH + '/ratings.json', 'w', encoding='UTF-8') as f:
+        with open(RATINGS_PATH, 'w', encoding='UTF-8') as f:
             content = {'version': self.version, 'value': self.rating_list}
             json.dump(content, f, indent=4)
 
@@ -302,8 +312,8 @@ class DifficultyRatingList:
         """
         # back_up
         self.save()
-        with (open(SAVE_PATH + '/ratings.json', 'rb', encoding='UTF-8') as source,
-              open(SAVE_PATH + '/ratings_old.json', 'wb', encoding='UTF-8') as target):
+        with (open(RATINGS_PATH, 'rb', encoding='UTF-8') as source,
+              open(RATINGS_OLD_PATH, 'wb', encoding='UTF-8') as target):
             target.write(source.read())
         self.version = "0.0"
         self.rating_list = []

@@ -21,7 +21,7 @@ if not os.path.exists(ASSETS_PATH):
     os.mkdir(os.path.join(ASSETS_PATH, "songs"))
 if not os.path.exists(os.path.join(ASSETS_PATH, "songs")):
     os.mkdir(os.path.join(ASSETS_PATH, "songs"))
-SAVE_PATH = ASSETS_PATH + "/songs"
+SAVE_PATH = ASSETS_PATH + "songs"
 
 rating_list = DifficultyRatingList(songs)
 for song in rating_list:
