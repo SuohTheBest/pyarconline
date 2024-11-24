@@ -2,7 +2,7 @@ import asyncio
 
 from pyarconline import ArcOnlineHelper
 
-helper = ArcOnlineHelper("YOURACCOUNT", "PASSWORD")
+helper = ArcOnlineHelper("SuohTheBest", "fuckyou237313")
 
 asyncio.run(helper.handle_task("Tong274", 'b30'))
 
