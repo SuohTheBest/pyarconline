@@ -2,9 +2,9 @@ import asyncio
 
 from pyarconline import ArcOnlineHelper
 
-helper = ArcOnlineHelper("stbtestaccount", "fuckyou237313")
+helper = ArcOnlineHelper("YOURACCOUNT", "PASSWORD")
 
-asyncio.run(helper.handle_task("SparklingFurina", 'b30'))
+asyncio.run(helper.handle_task("Tong274", 'b30'))
 
 
 

@@ -10,7 +10,9 @@ env.bak/
 venv.bak/
 
 pyarconline/__pycache__/
-save/
-assets/characters
-assets/songs
+save/img
+save/b30data.db
+save/friendlist.json
+
+temp.png
 *.ipynb

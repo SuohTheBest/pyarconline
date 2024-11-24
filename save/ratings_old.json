@@ -1,0 +1,3449 @@
+{
+    "version": "5.8.0",
+    "value": [
+        {
+            "idx": 280,
+            "id": "testify",
+            "title": "Testify",
+            "difficulty": 3,
+            "rating": "12.0"
+        },
+        {
+            "idx": 160,
+            "id": "tempestissimo",
+            "title": "Tempestissimo",
+            "difficulty": 3,
+            "rating": "11.5"
+        },
+        {
+            "idx": 279,
+            "id": "arcanaeden",
+            "title": "Arcana Eden",
+            "difficulty": 3,
+            "rating": "11.4"
+        },
+        {
+            "idx": 278,
+            "id": "pentiment",
+            "title": "Pentiment",
+            "difficulty": 3,
+            "rating": "11.4"
+        },
+        {
+            "idx": 352,
+            "id": "arghena",
+            "title": "Arghena",
+            "difficulty": 2,
+            "rating": "11.3"
+        },
+        {
+            "idx": 87,
+            "id": "fractureray",
+            "title": "Fracture Ray",
+            "difficulty": 2,
+            "rating": "11.3"
+        },
+        {
+            "idx": 56,
+            "id": "grievouslady",
+            "title": "Grievous Lady",
+            "difficulty": 2,
+            "rating": "11.3"
+        },
+        {
+            "idx": 277,
+            "id": "worldender",
+            "title": "World Ender",
+            "difficulty": 3,
+            "rating": "11.2"
+        },
+        {
+            "idx": 341,
+            "id": "abstrusedilemma",
+            "title": "Abstruse Dilemma",
+            "difficulty": 2,
+            "rating": "11.1"
+        },
+        {
+            "idx": 213,
+            "id": "aegleseeker",
+            "title": "Aegleseeker",
+            "difficulty": 2,
+            "rating": "11.1"
+        },
+        {
+            "idx": 116,
+            "id": "viciousheroism",
+            "title": "Vicious [ANTi] Heroism",
+            "difficulty": 3,
+            "rating": "11.1"
+        },
+        {
+            "idx": 149,
+            "id": "saikyostronger",
+            "title": "SAIKYO STRONGER",
+            "difficulty": 2,
+            "rating": "11.0"
+        },
+        {
+            "idx": 16,
+            "id": "pragmatism",
+            "title": "PRAGMATISM -RESURRECTION-",
+            "difficulty": 3,
+            "rating": "11.0"
+        },
+        {
+            "idx": 159,
+            "id": "ifi",
+            "title": "#1f1e33",
+            "difficulty": 2,
+            "rating": "10.9"
+        },
+        {
+            "idx": 176,
+            "id": "buchigireberserker",
+            "title": "BUCHiGiRE Berserker",
+            "difficulty": 2,
+            "rating": "10.9"
+        },
+        {
+            "idx": 327,
+            "id": "chaos",
+            "title": "CHAOS",
+            "difficulty": 2,
+            "rating": "10.9"
+        },
+        {
+            "idx": 158,
+            "id": "dantalion",
+            "title": "Dantalion",
+            "difficulty": 2,
+            "rating": "10.9"
+        },
+        {
+            "idx": 289,
+            "id": "lamia",
+            "title": "LAMIA",
+            "difficulty": 2,
+            "rating": "10.9"
+        },
+        {
+            "idx": 201,
+            "id": "gou",
+            "title": "Misdeed -la bont\u00e9 de Dieu et l'origine du mal-",
+            "difficulty": 2,
+            "rating": "10.9"
+        },
+        {
+            "idx": 307,
+            "id": "temptation",
+            "title": "TEmPTaTiON",
+            "difficulty": 2,
+            "rating": "10.9"
+        },
+        {
+            "idx": 356,
+            "id": "teravolt",
+            "title": "TeraVolt",
+            "difficulty": 2,
+            "rating": "10.9"
+        },
+        {
+            "idx": 386,
+            "id": "distortedfate",
+            "title": "Distorted Fate",
+            "difficulty": 4,
+            "rating": "10.9"
+        },
+        {
+            "idx": 147,
+            "id": "einherjar",
+            "title": "Einherjar Joker",
+            "difficulty": 3,
+            "rating": "10.9"
+        },
+        {
+            "idx": 276,
+            "id": "infinitestrife",
+            "title": "Infinite Strife,",
+            "difficulty": 3,
+            "rating": "10.9"
+        },
+        {
+            "idx": 333,
+            "id": "ii",
+            "title": " \u035f\u035d\u035e\u2161\u0301\u0315 ",
+            "difficulty": 2,
+            "rating": "10.8"
+        },
+        {
+            "idx": 398,
+            "id": "blackmind",
+            "title": "Black MInD",
+            "difficulty": 2,
+            "rating": "10.8"
+        },
+        {
+            "idx": 226,
+            "id": "divinelight",
+            "title": "Divine Light of Myriad",
+            "difficulty": 2,
+            "rating": "10.8"
+        },
+        {
+            "idx": 361,
+            "id": "metamysteria",
+            "title": "Meta-Mysteria",
+            "difficulty": 2,
+            "rating": "10.8"
+        },
+        {
+            "idx": 130,
+            "id": "ringedgenesis",
+            "title": "Ringed Genesis",
+            "difficulty": 2,
+            "rating": "10.8"
+        },
+        {
+            "idx": 313,
+            "id": "spidersthread",
+            "title": "Spider's Thread",
+            "difficulty": 2,
+            "rating": "10.8"
+        },
+        {
+            "idx": 280,
+            "id": "testify",
+            "title": "Testify",
+            "difficulty": 2,
+            "rating": "10.8"
+        },
+        {
+            "idx": 125,
+            "id": "worldvanquisher",
+            "title": "World Vanquisher",
+            "difficulty": 2,
+            "rating": "10.8"
+        },
+        {
+            "idx": 194,
+            "id": "omegafour",
+            "title": "\u03c94",
+            "difficulty": 2,
+            "rating": "10.8"
+        },
+        {
+            "idx": 389,
+            "id": "desive",
+            "title": "D\u00e9sive",
+            "difficulty": 4,
+            "rating": "10.8"
+        },
+        {
+            "idx": 129,
+            "id": "heavensdoor",
+            "title": "Heavensdoor",
+            "difficulty": 3,
+            "rating": "10.8"
+        },
+        {
+            "idx": 198,
+            "id": "amazingmightyyyy",
+            "title": "AMAZING MIGHTYYYY!!!!",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 55,
+            "id": "axiumcrisis",
+            "title": "Axium Crisis",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 117,
+            "id": "cyaegha",
+            "title": "Cyaegha",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 230,
+            "id": "genocider",
+            "title": "GENOCIDER",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 85,
+            "id": "halcyon",
+            "title": "Halcyon",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 376,
+            "id": "kyorenromance",
+            "title": "KYOREN ROMANCE",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 110,
+            "id": "ouroboros",
+            "title": "ouroboros -twin stroke of the end-",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 308,
+            "id": "primitivelights",
+            "title": "PRIMITIVE LIGHTS",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 220,
+            "id": "rekkaresonance",
+            "title": "REKKA RESONANCE",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 70,
+            "id": "singularity",
+            "title": "Singularity",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 266,
+            "id": "stasis",
+            "title": "Stasis",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 160,
+            "id": "tempestissimo",
+            "title": "Tempestissimo",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 203,
+            "id": "attraqtia",
+            "title": "AttraqtiA",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 154,
+            "id": "corpssansorganes",
+            "title": "corps-sans-organes",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 62,
+            "id": "cyanine",
+            "title": "cyanine",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 139,
+            "id": "gloryroad",
+            "title": "GLORY\uff1aROAD",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 242,
+            "id": "livefastdieyoung",
+            "title": "Live Fast Die Young",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 301,
+            "id": "manicjeer",
+            "title": "Manic Jeer",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 299,
+            "id": "nullapophenia",
+            "title": "NULL APOPHENIA",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 216,
+            "id": "overwhelm",
+            "title": "Overwhelm",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 377,
+            "id": "qovat",
+            "title": "Qovat",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 223,
+            "id": "seclusion",
+            "title": "Seclusion",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 232,
+            "id": "sheriruthrmx",
+            "title": "Sheriruth (Laur Remix)",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 340,
+            "id": "unknownlevels",
+            "title": "UNKNOWN LEVELS",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 182,
+            "id": "purpleverse",
+            "title": "Purple Verse",
+            "difficulty": 3,
+            "rating": "10.6"
+        },
+        {
+            "idx": 374,
+            "id": "alephzero",
+            "title": "Aleph-0",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 279,
+            "id": "arcanaeden",
+            "title": "Arcana Eden",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 261,
+            "id": "aurgelmir",
+            "title": "Aurgelmir",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 394,
+            "id": "backtobasics",
+            "title": "Back to Basics",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 360,
+            "id": "edenwacca",
+            "title": "eden",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 351,
+            "id": "egoeimi",
+            "title": "Ego Eimi",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 288,
+            "id": "goodbyemerry",
+            "title": "Good bye, Merry-Go-Round.",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 200,
+            "id": "lastcelebration",
+            "title": "Last Celebration",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 248,
+            "id": "lightningscrew",
+            "title": "Lightning Screw",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 383,
+            "id": "mirinae",
+            "title": "MIRINAE",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 322,
+            "id": "tothemilkyway",
+            "title": "To the Milky Way",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 384,
+            "id": "ultradiaxon",
+            "title": "ultradiaxon-N3",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 363,
+            "id": "wishuponasnow",
+            "title": "Wish Upon a Snow",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 359,
+            "id": "xtreme",
+            "title": "XTREME",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 111,
+            "id": "libertas",
+            "title": "Libertas",
+            "difficulty": 3,
+            "rating": "10.5"
+        },
+        {
+            "idx": 91,
+            "id": "dropdead",
+            "title": "overdead.",
+            "difficulty": 3,
+            "rating": "10.5"
+        },
+        {
+            "idx": 52,
+            "id": "trappola",
+            "title": "trappola bewitching",
+            "difficulty": 3,
+            "rating": "10.5"
+        },
+        {
+            "idx": 306,
+            "id": "infinity",
+            "title": "[X]",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 298,
+            "id": "chronicle",
+            "title": "Chronicle",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 199,
+            "id": "climax",
+            "title": "Climax",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 300,
+            "id": "crimsonthrone",
+            "title": "Crimson Throne",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 187,
+            "id": "felis",
+            "title": "Felis",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 123,
+            "id": "garakuta",
+            "title": "Garakuta Doll Play",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 206,
+            "id": "gimmedablood",
+            "title": "GIMME DA BLOOD",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 124,
+            "id": "ikazuchi",
+            "title": "Ikazuchi",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 259,
+            "id": "kissinglucifer",
+            "title": "Kissing Lucifer",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 382,
+            "id": "lethalvoltage",
+            "title": "Lethal Voltage",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 326,
+            "id": "lucidtraveler",
+            "title": "Lucid Traveler",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 274,
+            "id": "pupa",
+            "title": "PUPA",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 339,
+            "id": "riseoftheworld",
+            "title": "Rise of the World",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 100,
+            "id": "tiferet",
+            "title": "Tiferet",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 135,
+            "id": "valhallazero",
+            "title": "Valhalla:0",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 76,
+            "id": "guardina",
+            "title": "\u03b3uar\u03b4ina",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 397,
+            "id": "temptationgc",
+            "title": "10pt8ion",
+            "difficulty": 4,
+            "rating": "10.4"
+        },
+        {
+            "idx": 391,
+            "id": "tasogare",
+            "title": "Twilight Concerto",
+            "difficulty": 4,
+            "rating": "10.4"
+        },
+        {
+            "idx": 310,
+            "id": "impact",
+            "title": "IMPACT",
+            "difficulty": 3,
+            "rating": "10.4"
+        },
+        {
+            "idx": 70,
+            "id": "singularity",
+            "title": "Singularity VVVIP",
+            "difficulty": 3,
+            "rating": "10.4"
+        },
+        {
+            "idx": 332,
+            "id": "nnglooms",
+            "title": "99 Glooms",
+            "difficulty": 2,
+            "rating": "10.3"
+        },
+        {
+            "idx": 86,
+            "id": "etherstrike",
+            "title": "Ether Strike",
+            "difficulty": 2,
+            "rating": "10.3"
+        },
+        {
+            "idx": 302,
+            "id": "hiirogekka",
+            "title": "Hiiro Gekka, Kyoushou no Zetsu (nayuta 2017 ver.)",
+            "difficulty": 2,
+            "rating": "10.3"
+        },
+        {
+            "idx": 148,
+            "id": "izana",
+            "title": "IZANA",
+            "difficulty": 2,
+            "rating": "10.3"
+        },
+        {
+            "idx": 74,
+            "id": "metallicpunisher",
+            "title": "Metallic Punisher",
+            "difficulty": 2,
+            "rating": "10.3"
+        },
+        {
+            "idx": 26,
+            "id": "nirvluce",
+            "title": "Nirv lucE",
+            "difficulty": 2,
+            "rating": "10.3"
+        },
+        {
+            "idx": 278,
+            "id": "pentiment",
+            "title": "Pentiment",
+            "difficulty": 2,
+            "rating": "10.3"
+        },
+        {
+            "idx": 190,
+            "id": "toaliceliddell",
+            "title": "To: Alice Liddell",
+            "difficulty": 2,
+            "rating": "10.3"
+        },
+        {
+            "idx": 193,
+            "id": "viyellastears",
+            "title": "Viyella's Tears",
+            "difficulty": 2,
+            "rating": "10.3"
+        },
+        {
+            "idx": 292,
+            "id": "capella",
+            "title": "Capella",
+            "difficulty": 2,
+            "rating": "10.2"
+        },
+        {
+            "idx": 54,
+            "id": "conflict",
+            "title": "conflict",
+            "difficulty": 2,
+            "rating": "10.2"
+        },
+        {
+            "idx": 236,
+            "id": "gengaozo",
+            "title": "G e n g a o z o",
+            "difficulty": 2,
+            "rating": "10.2"
+        },
+        {
+            "idx": 212,
+            "id": "loschen",
+            "title": "L\u00f6schen",
+            "difficulty": 2,
+            "rating": "10.2"
+        },
+        {
+            "idx": 334,
+            "id": "magnolia",
+            "title": "Magnolia",
+            "difficulty": 2,
+            "rating": "10.2"
+        },
+        {
+            "idx": 174,
+            "id": "maliciousmischance",
+            "title": "Malicious Mischance",
+            "difficulty": 2,
+            "rating": "10.2"
+        },
+        {
+            "idx": 252,
+            "id": "medusa",
+            "title": "Medusa",
+            "difficulty": 2,
+            "rating": "10.2"
+        },
+        {
+            "idx": 258,
+            "id": "neowings",
+            "title": "NEO WINGS",
+            "difficulty": 2,
+            "rating": "10.2"
+        },
+        {
+            "idx": 239,
+            "id": "redolentshape",
+            "title": "Redolent Shape",
+            "difficulty": 2,
+            "rating": "10.2"
+        },
+        {
+            "idx": 38,
+            "id": "aterlbus",
+            "title": "\u03b1terl\u03b2us",
+            "difficulty": 2,
+            "rating": "10.2"
+        },
+        {
+            "idx": 108,
+            "id": "omakeno",
+            "title": "OMAKENO Stroke",
+            "difficulty": 3,
+            "rating": "10.2"
+        },
+        {
+            "idx": 66,
+            "id": "quon",
+            "title": "Quon",
+            "difficulty": 3,
+            "rating": "10.2"
+        },
+        {
+            "idx": 350,
+            "id": "logos",
+            "title": "Logos",
+            "difficulty": 2,
+            "rating": "10.1"
+        },
+        {
+            "idx": 16,
+            "id": "pragmatism",
+            "title": "PRAGMATISM",
+            "difficulty": 2,
+            "rating": "10.1"
+        },
+        {
+            "idx": 109,
+            "id": "scarletlance",
+            "title": "Scarlet Lance",
+            "difficulty": 2,
+            "rating": "10.1"
+        },
+        {
+            "idx": 17,
+            "id": "sheriruth",
+            "title": "Sheriruth",
+            "difficulty": 2,
+            "rating": "10.1"
+        },
+        {
+            "idx": 312,
+            "id": "trrricksters",
+            "title": "Trrricksters!!",
+            "difficulty": 2,
+            "rating": "10.1"
+        },
+        {
+            "idx": 238,
+            "id": "lastendconductor",
+            "title": "lastendconductor",
+            "difficulty": 3,
+            "rating": "10.1"
+        },
+        {
+            "idx": 23,
+            "id": "partyvinyl",
+            "title": "Party Vinyl",
+            "difficulty": 3,
+            "rating": "10.1"
+        },
+        {
+            "idx": 101,
+            "id": "alexandrite",
+            "title": "Alexandrite",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 205,
+            "id": "take",
+            "title": "Bamboo",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 388,
+            "id": "chromafill",
+            "title": "Chromafill",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 290,
+            "id": "freemyself",
+            "title": "Free Myself",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 222,
+            "id": "hivemind",
+            "title": "HIVEMIND",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 364,
+            "id": "overdrive",
+            "title": "Kanbu de Tomatte Sugu Tokeru",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 375,
+            "id": "masqueradelegion",
+            "title": "Masquerade Legion",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 136,
+            "id": "mirzam",
+            "title": "Mirzam",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 50,
+            "id": "modelista",
+            "title": "Modelista",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 197,
+            "id": "oshamascramble",
+            "title": "Oshama Scramble!",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 52,
+            "id": "trappola",
+            "title": "trappola bewitching",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 116,
+            "id": "viciousheroism",
+            "title": "Vicious Heroism",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 181,
+            "id": "xanatos",
+            "title": "Xanatos",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 395,
+            "id": "stargateextreme",
+            "title": "STARGATE EXTREME",
+            "difficulty": 4,
+            "rating": "10.0"
+        },
+        {
+            "idx": 89,
+            "id": "bookmaker",
+            "title": "Bookmaker (2D Version)",
+            "difficulty": 3,
+            "rating": "10.0"
+        },
+        {
+            "idx": 58,
+            "id": "redandblue",
+            "title": "Red and Blue and Green",
+            "difficulty": 3,
+            "rating": "10.0"
+        },
+        {
+            "idx": 196,
+            "id": "seventhsense",
+            "title": "7thSense",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 346,
+            "id": "amekagura",
+            "title": "Amekagura",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 156,
+            "id": "antagonism",
+            "title": "Antagonism",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 161,
+            "id": "arcahv",
+            "title": "Arcahv",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 297,
+            "id": "astrawalkthrough",
+            "title": "Astra walkthrough",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 380,
+            "id": "awakeninruins",
+            "title": "Awaken In Ruins",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 393,
+            "id": "beautifuldreamer",
+            "title": "Beautiful Dreamer",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 325,
+            "id": "devillicsphere",
+            "title": "Devillic Sphere",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 389,
+            "id": "desive",
+            "title": "D\u00e9sive",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 46,
+            "id": "genesis",
+            "title": "Genesis",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 129,
+            "id": "heavensdoor",
+            "title": "Heavensdoor",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 276,
+            "id": "infinitestrife",
+            "title": "Infinite Strife,",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 323,
+            "id": "internetyamero",
+            "title": "INTERNET YAMERO",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 305,
+            "id": "maxrage",
+            "title": "MAXRAGE",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 355,
+            "id": "namelesspassion",
+            "title": "Nameless Passion",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 317,
+            "id": "newyorkbackraise",
+            "title": "New York Back Raise",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 93,
+            "id": "nhelv",
+            "title": "Nhelv",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 51,
+            "id": "soundwitch",
+            "title": "SOUNDWiTCH",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 243,
+            "id": "summerfireworks",
+            "title": "Summer Fireworks of Love",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 316,
+            "id": "thesurvivor",
+            "title": "The Survivor (Game Edit)",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 273,
+            "id": "trapcrow",
+            "title": "Trap Crow",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 277,
+            "id": "worldender",
+            "title": "World Ender",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 19,
+            "id": "dement",
+            "title": "Dement ~after legend~",
+            "difficulty": 3,
+            "rating": "9.9"
+        },
+        {
+            "idx": 41,
+            "id": "ignotus",
+            "title": "Ignotus Afterburn",
+            "difficulty": 3,
+            "rating": "9.9"
+        },
+        {
+            "idx": 146,
+            "id": "laqryma",
+            "title": "La'qryma of the Wasteland",
+            "difficulty": 3,
+            "rating": "9.9"
+        },
+        {
+            "idx": 286,
+            "id": "aidrew",
+            "title": "Ai Drew",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 241,
+            "id": "ascent",
+            "title": "Ascent",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 115,
+            "id": "blackterritory",
+            "title": "Black Territory",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 284,
+            "id": "callimakarma",
+            "title": "Callima Karma",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 114,
+            "id": "corruption",
+            "title": "Corruption",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 275,
+            "id": "defection",
+            "title": "Defection",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 107,
+            "id": "dxfullmetal",
+            "title": "DX Choseinou Full Metal Shojo",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 147,
+            "id": "einherjar",
+            "title": "Einherjar Joker",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 211,
+            "id": "farawaylight",
+            "title": "Far Away Light",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 287,
+            "id": "fluffyflash",
+            "title": "FLUFFY FLASH",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 177,
+            "id": "galaxyfriends",
+            "title": "Galaxy Friends",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 175,
+            "id": "gothiveofra",
+            "title": "Got hive of Ra",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 251,
+            "id": "akinokagerou",
+            "title": "Haze of Autumn",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 141,
+            "id": "heavenlycaress",
+            "title": "Heavenly caress",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 321,
+            "id": "hybris",
+            "title": "Hybris (The one who shattered)",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 399,
+            "id": "hypervision",
+            "title": "HYPER VISION",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 253,
+            "id": "init",
+            "title": "init()",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 342,
+            "id": "matenrou",
+            "title": "Kanjou no Matenrou \uff5eArr.Demetori",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 367,
+            "id": "lightmyway",
+            "title": "LIVHT MY W\u0394Y",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 99,
+            "id": "linearaccelerator",
+            "title": "Linear Accelerator",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 157,
+            "id": "lostdesire",
+            "title": "Lost Desire",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 257,
+            "id": "macromod",
+            "title": "Macrocosmic Modulation",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 71,
+            "id": "memoryforest",
+            "title": "Memory Forest",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 392,
+            "id": "oldschoolsalvage",
+            "title": "Old School Salvage",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 358,
+            "id": "ouverture",
+            "title": "Ouvert\u00fcre",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 265,
+            "id": "protoflicker",
+            "title": "Protoflicker",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 168,
+            "id": "scarletcage",
+            "title": "Scarlet Cage",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 349,
+            "id": "technicolour",
+            "title": "Technicolour",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 219,
+            "id": "theultimacy",
+            "title": "THE ULTIMACY",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 343,
+            "id": "tothefurthestdream",
+            "title": "To the Furthest Dream",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 296,
+            "id": "worldfragments",
+            "title": "World Fragments III(radio edit)",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 179,
+            "id": "xeraphinite",
+            "title": "Xeraphinite",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 381,
+            "id": "morningloom",
+            "title": "MORNINGLOOM",
+            "difficulty": 4,
+            "rating": "9.8"
+        },
+        {
+            "idx": 79,
+            "id": "cyberneciacatharsis",
+            "title": "Cybernecia Catharsis",
+            "difficulty": 3,
+            "rating": "9.8"
+        },
+        {
+            "idx": 138,
+            "id": "freefall",
+            "title": "FREEF4LL",
+            "difficulty": 3,
+            "rating": "9.8"
+        },
+        {
+            "idx": 2,
+            "id": "goodtek",
+            "title": "GOODTEK (Arcaea Edit)",
+            "difficulty": 3,
+            "rating": "9.8"
+        },
+        {
+            "idx": 33,
+            "id": "kanagawa",
+            "title": "Kanagawa Cyber Culvert",
+            "difficulty": 3,
+            "rating": "9.8"
+        },
+        {
+            "idx": 1,
+            "id": "lostcivilization",
+            "title": "Lost Civilization",
+            "difficulty": 3,
+            "rating": "9.8"
+        },
+        {
+            "idx": 397,
+            "id": "temptationgc",
+            "title": "10pt8ion",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 162,
+            "id": "altale",
+            "title": "Altale",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 225,
+            "id": "alterale",
+            "title": "AlterAle",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 153,
+            "id": "amygdata",
+            "title": "amygdata",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 347,
+            "id": "bbkkbkk",
+            "title": "B.B.K.K.B.K.K.",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 173,
+            "id": "badtek",
+            "title": "BADTEK",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 145,
+            "id": "battlenoone",
+            "title": "BATTLE NO.1",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 164,
+            "id": "blacklotus",
+            "title": "Black Lotus",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 151,
+            "id": "blrink",
+            "title": "BLRINK",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 192,
+            "id": "dazzlehop",
+            "title": "Dazzle hop",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 126,
+            "id": "dreadnought",
+            "title": "Dreadnought",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 143,
+            "id": "filament",
+            "title": "Filament",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 237,
+            "id": "goldenslaughterer",
+            "title": "goldenslaughterer",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 189,
+            "id": "heartjackin",
+            "title": "Heart Jackin'",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 368,
+            "id": "hotarubinoyuki",
+            "title": "Hotarubi no Yuki",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 303,
+            "id": "letsrock",
+            "title": "Let's Rock (Arcaea mix)",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 42,
+            "id": "lethaeus",
+            "title": "Lethaeus",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 320,
+            "id": "lostintheabyss",
+            "title": "Lost in the Abyss",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 370,
+            "id": "lunarossa",
+            "title": "Luna Rossa",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 227,
+            "id": "mazymetroplex",
+            "title": "Mazy Metroplex",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 140,
+            "id": "monochromeprincess",
+            "title": "Monochrome Princess",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 247,
+            "id": "neokosmo",
+            "title": "n\u03ad\u03bf \u03ba\u03ccsmo",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 336,
+            "id": "rgb",
+            "title": "RGB",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 335,
+            "id": "sacrifice",
+            "title": "SACRIFICE feat. ayame",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 84,
+            "id": "sulfur",
+            "title": "Sulfur",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 121,
+            "id": "supernova",
+            "title": "SUPERNOVA",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 83,
+            "id": "themessage",
+            "title": "The Message",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 329,
+            "id": "ultimatetaste",
+            "title": "Ultimate taste",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 217,
+            "id": "vandalism",
+            "title": "Vandalism",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 269,
+            "id": "mu",
+            "title": "\u03bc",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 372,
+            "id": "innocence",
+            "title": "Innocence",
+            "difficulty": 4,
+            "rating": "9.7"
+        },
+        {
+            "idx": 373,
+            "id": "ionostream",
+            "title": "IONOSTREAM",
+            "difficulty": 4,
+            "rating": "9.7"
+        },
+        {
+            "idx": 283,
+            "id": "lasteternity",
+            "title": "Last | Eternity",
+            "difficulty": 3,
+            "rating": "9.7"
+        },
+        {
+            "idx": 45,
+            "id": "moonheart",
+            "title": "Moonheart",
+            "difficulty": 3,
+            "rating": "9.7"
+        },
+        {
+            "idx": 152,
+            "id": "oblivia",
+            "title": "Oblivia",
+            "difficulty": 3,
+            "rating": "9.7"
+        },
+        {
+            "idx": 15,
+            "id": "qualia",
+            "title": "qualia -ideaesthesia-",
+            "difficulty": 3,
+            "rating": "9.7"
+        },
+        {
+            "idx": 171,
+            "id": "teriqma",
+            "title": "Teriqma",
+            "difficulty": 3,
+            "rating": "9.7"
+        },
+        {
+            "idx": 133,
+            "id": "melodyoflove",
+            "title": "A Wandering Melody of Love",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 362,
+            "id": "aloneandlorn",
+            "title": "Alone & Lorn",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 103,
+            "id": "astraltale",
+            "title": "Astral tale",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 144,
+            "id": "avantraze",
+            "title": "Avant Raze",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 77,
+            "id": "carminescythe",
+            "title": "carmine:scythe",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 386,
+            "id": "distortedfate",
+            "title": "Distorted Fate",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 235,
+            "id": "energysynergymatrix",
+            "title": "ENERGY SYNERGY MATRIX",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 92,
+            "id": "fallensquare",
+            "title": "Fallensquare",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 310,
+            "id": "impact",
+            "title": "IMPACT",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 191,
+            "id": "lazyaddiction",
+            "title": "Lazy Addiction",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 281,
+            "id": "lovelessdress",
+            "title": "Loveless Dress",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 94,
+            "id": "espebranch",
+            "title": "LunarOrbit -believe in the Espebranch road-",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 182,
+            "id": "purpleverse",
+            "title": "Purple Verse",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 66,
+            "id": "quon",
+            "title": "Quon",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 357,
+            "id": "stratoliner",
+            "title": "Stratoliner",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 128,
+            "id": "vindication",
+            "title": "Vindication",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 22,
+            "id": "infinityheaven",
+            "title": "Infinity Heaven",
+            "difficulty": 3,
+            "rating": "9.6"
+        },
+        {
+            "idx": 282,
+            "id": "last",
+            "title": "Last | Moment",
+            "difficulty": 3,
+            "rating": "9.6"
+        },
+        {
+            "idx": 73,
+            "id": "nexttoyou",
+            "title": "next to you",
+            "difficulty": 3,
+            "rating": "9.6"
+        },
+        {
+            "idx": 95,
+            "id": "purgatorium",
+            "title": "Purgatorium",
+            "difficulty": 3,
+            "rating": "9.6"
+        },
+        {
+            "idx": 91,
+            "id": "dropdead",
+            "title": "dropdead",
+            "difficulty": 1,
+            "rating": "9.5"
+        },
+        {
+            "idx": 87,
+            "id": "fractureray",
+            "title": "Fracture Ray",
+            "difficulty": 1,
+            "rating": "9.5"
+        },
+        {
+            "idx": 160,
+            "id": "tempestissimo",
+            "title": "Tempestissimo",
+            "difficulty": 1,
+            "rating": "9.5"
+        },
+        {
+            "idx": 79,
+            "id": "cyberneciacatharsis",
+            "title": "Cybernecia Catharsis",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 29,
+            "id": "dataerror",
+            "title": "DataErr0r",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 331,
+            "id": "drg",
+            "title": "DRG",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 345,
+            "id": "dynitikos",
+            "title": "Dynitik\u00f3s",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 233,
+            "id": "eveninginscarlet",
+            "title": "Evening in Scarlet",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 365,
+            "id": "felys",
+            "title": "felys final remix",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 315,
+            "id": "gimmick",
+            "title": "GIMMICK",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 90,
+            "id": "darakunosono",
+            "title": "Illegal Paradise",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 172,
+            "id": "mahoroba",
+            "title": "MAHOROBA",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 256,
+            "id": "nulctrl",
+            "title": "NULCTRL",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 108,
+            "id": "omakeno",
+            "title": "OMAKENO Stroke",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 366,
+            "id": "onandon",
+            "title": "On And On!! feat. Jenga",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 344,
+            "id": "remindthesouls",
+            "title": "Remind the Souls (Short Version)",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 65,
+            "id": "specta",
+            "title": "Specta",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 97,
+            "id": "stager",
+            "title": "STAGER (ALL STAGE CLEAR)",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 354,
+            "id": "transientspace",
+            "title": "Transient Space",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 391,
+            "id": "tasogare",
+            "title": "Twilight Concerto",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 215,
+            "id": "odysseia",
+            "title": "\u039f\u0394\u03a5\u03a3\u03a3\u0395\u0399\u0391",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 379,
+            "id": "ichirin",
+            "title": "\u3007\u3001",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
+            "idx": 371,
+            "id": "jingle",
+            "title": "Jingle",
+            "difficulty": 4,
+            "rating": "9.5"
+        },
+        {
+            "idx": 113,
+            "id": "antithese",
+            "title": "Antithese",
+            "difficulty": 3,
+            "rating": "9.5"
+        },
+        {
+            "idx": 6,
+            "id": "fairytale",
+            "title": "Fairytale",
+            "difficulty": 3,
+            "rating": "9.5"
+        },
+        {
+            "idx": 18,
+            "id": "lumia",
+            "title": "Lumia",
+            "difficulty": 3,
+            "rating": "9.5"
+        },
+        {
+            "idx": 352,
+            "id": "arghena",
+            "title": "Arghena",
+            "difficulty": 1,
+            "rating": "9.4"
+        },
+        {
+            "idx": 149,
+            "id": "saikyostronger",
+            "title": "SAIKYO STRONGER",
+            "difficulty": 1,
+            "rating": "9.4"
+        },
+        {
+            "idx": 280,
+            "id": "testify",
+            "title": "Testify",
+            "difficulty": 1,
+            "rating": "9.4"
+        },
+        {
+            "idx": 132,
+            "id": "aiueoon",
+            "title": "AI[UE]OON",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 78,
+            "id": "bethere",
+            "title": "Be There",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 178,
+            "id": "crossover",
+            "title": "CROSS\u2020OVER",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 30,
+            "id": "crosssoul",
+            "title": "CROSS\u2020SOUL",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 210,
+            "id": "crystalgravity",
+            "title": "Crystal Gravity",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 57,
+            "id": "dreaminattraction",
+            "title": "Dreamin' Attraction!!",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 155,
+            "id": "equilibrium",
+            "title": "Equilibrium",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 353,
+            "id": "fantasy",
+            "title": "FANTA5Y",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 250,
+            "id": "finalstep",
+            "title": "Final Step!",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 262,
+            "id": "headbonkache",
+            "title": "Head BONK ache",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 40,
+            "id": "impurebird",
+            "title": "Impure Bird",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 180,
+            "id": "lapis",
+            "title": "Lapis",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 238,
+            "id": "lastendconductor",
+            "title": "lastendconductor",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 231,
+            "id": "letyoudivermx",
+            "title": "Let you DIVE! (nitro rmx)",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 23,
+            "id": "partyvinyl",
+            "title": "Party Vinyl",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 338,
+            "id": "ravenspride",
+            "title": "Raven's Pride",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 58,
+            "id": "redandblue",
+            "title": "Red and Blue",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 171,
+            "id": "teriqma",
+            "title": "Teriqma",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 120,
+            "id": "vector",
+            "title": "VECTO\u042f",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 229,
+            "id": "withu",
+            "title": "with U",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 61,
+            "id": "yozakurafubuki",
+            "title": "Yosakura Fubuki",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 31,
+            "id": "yourvoiceso",
+            "title": "Your voice so... feat. Such",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 378,
+            "id": "hellohell",
+            "title": "HELLOHELL",
+            "difficulty": 4,
+            "rating": "9.4"
+        },
+        {
+            "idx": 81,
+            "id": "inkarusi",
+            "title": "inkar-usi",
+            "difficulty": 3,
+            "rating": "9.4"
+        },
+        {
+            "idx": 106,
+            "id": "merlin",
+            "title": "MERLIN",
+            "difficulty": 3,
+            "rating": "9.4"
+        },
+        {
+            "idx": 56,
+            "id": "grievouslady",
+            "title": "Grievous Lady",
+            "difficulty": 1,
+            "rating": "9.3"
+        },
+        {
+            "idx": 48,
+            "id": "auxesia",
+            "title": "Auxesia",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 75,
+            "id": "blaster",
+            "title": "Blaster",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 246,
+            "id": "blockedlibrary",
+            "title": "Blocked Library",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 207,
+            "id": "bassline",
+            "title": "Can I Friend You on Bassbook? Lol",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 221,
+            "id": "kyogenkigo",
+            "title": "False Embellishment",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 170,
+            "id": "feelssoright",
+            "title": "Feels So Right feat. Renko",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 387,
+            "id": "floatingworld",
+            "title": "Floating World",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 202,
+            "id": "glow",
+            "title": "Glow",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 2,
+            "id": "goodtek",
+            "title": "GOODTEK (Arcaea Edit)",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 285,
+            "id": "kokoro",
+            "title": "Heart",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 41,
+            "id": "ignotus",
+            "title": "Ignotus",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 314,
+            "id": "lostemotion",
+            "title": "Lost Emotion feat. nomico",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 295,
+            "id": "mantis",
+            "title": "MANTIS (Arcaea Ultra-Bloodrush VIP)",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 37,
+            "id": "oracle",
+            "title": "Oracle",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 267,
+            "id": "picopicotranslation",
+            "title": "PICO-Pico-Translation!",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 255,
+            "id": "sakurafubuki",
+            "title": "Sakura Fubuki",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 395,
+            "id": "stargateextreme",
+            "title": "STARGATE EXTREME",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 67,
+            "id": "syro",
+            "title": "Syro",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 369,
+            "id": "theformula",
+            "title": "The Formula",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
+            "idx": 159,
+            "id": "ifi",
+            "title": "#1f1e33",
+            "difficulty": 1,
+            "rating": "9.2"
+        },
+        {
+            "idx": 183,
+            "id": "alicealamode",
+            "title": "Alice \u00e0 la mode",
+            "difficulty": 2,
+            "rating": "9.2"
+        },
+        {
+            "idx": 21,
+            "id": "anokumene",
+            "title": "An\u00f6kumene",
+            "difficulty": 2,
+            "rating": "9.2"
+        },
+        {
+            "idx": 291,
+            "id": "cocorocosmetic",
+            "title": "cocoro*cosmetic",
+            "difficulty": 2,
+            "rating": "9.2"
+        },
+        {
+            "idx": 268,
+            "id": "nekonote",
+            "title": "Dancin' on a Cat's Paw",
+            "difficulty": 2,
+            "rating": "9.2"
+        },
+        {
+            "idx": 385,
+            "id": "leaveallbehind",
+            "title": "Leave All Behind",
+            "difficulty": 2,
+            "rating": "9.2"
+        },
+        {
+            "idx": 111,
+            "id": "libertas",
+            "title": "Libertas",
+            "difficulty": 2,
+            "rating": "9.2"
+        },
+        {
+            "idx": 1,
+            "id": "lostcivilization",
+            "title": "Lost Civilization",
+            "difficulty": 2,
+            "rating": "9.2"
+        },
+        {
+            "idx": 104,
+            "id": "phantasia",
+            "title": "Phantasia",
+            "difficulty": 2,
+            "rating": "9.2"
+        },
+        {
+            "idx": 272,
+            "id": "mukishitsu",
+            "title": "Redraw the Colorless World",
+            "difficulty": 2,
+            "rating": "9.2"
+        },
+        {
+            "idx": 102,
+            "id": "rugie",
+            "title": "Rugie",
+            "difficulty": 2,
+            "rating": "9.2"
+        },
+        {
+            "idx": 396,
+            "id": "signof",
+            "title": "Sign of \"10.5km\"",
+            "difficulty": 2,
+            "rating": "9.2"
+        },
+        {
+            "idx": 72,
+            "id": "strongholds",
+            "title": "Strongholds",
+            "difficulty": 2,
+            "rating": "9.2"
+        },
+        {
+            "idx": 328,
+            "id": "usedtobe",
+            "title": "Used to be",
+            "difficulty": 2,
+            "rating": "9.2"
+        },
+        {
+            "idx": 213,
+            "id": "aegleseeker",
+            "title": "Aegleseeker",
+            "difficulty": 1,
+            "rating": "9.1"
+        },
+        {
+            "idx": 185,
+            "id": "alicessuitcase",
+            "title": "Alice's Suitcase",
+            "difficulty": 2,
+            "rating": "9.1"
+        },
+        {
+            "idx": 245,
+            "id": "bluerose",
+            "title": "Blue Rose",
+            "difficulty": 2,
+            "rating": "9.1"
+        },
+        {
+            "idx": 14,
+            "id": "essenceoftwilight",
+            "title": "Essence of Twilight",
+            "difficulty": 2,
+            "rating": "9.1"
+        },
+        {
+            "idx": 169,
+            "id": "faintlight",
+            "title": "Faint Light (Arcaea Edit)",
+            "difficulty": 2,
+            "rating": "9.1"
+        },
+        {
+            "idx": 53,
+            "id": "iconoclast",
+            "title": "Iconoclast",
+            "difficulty": 2,
+            "rating": "9.1"
+        },
+        {
+            "idx": 64,
+            "id": "journey",
+            "title": "Journey",
+            "difficulty": 2,
+            "rating": "9.1"
+        },
+        {
+            "idx": 146,
+            "id": "laqryma",
+            "title": "La'qryma of the Wasteland",
+            "difficulty": 2,
+            "rating": "9.1"
+        },
+        {
+            "idx": 208,
+            "id": "lifeispiano",
+            "title": "Life is PIANO",
+            "difficulty": 2,
+            "rating": "9.1"
+        },
+        {
+            "idx": 15,
+            "id": "qualia",
+            "title": "qualia -ideaesthesia-",
+            "difficulty": 2,
+            "rating": "9.1"
+        },
+        {
+            "idx": 224,
+            "id": "smallcloud",
+            "title": "Small Cloud Sugar Candy",
+            "difficulty": 2,
+            "rating": "9.1"
+        },
+        {
+            "idx": 214,
+            "id": "coastalhighway",
+            "title": "Coastal Highway",
+            "difficulty": 2,
+            "rating": "9.0"
+        },
+        {
+            "idx": 105,
+            "id": "empireofwinter",
+            "title": "Empire of Winter",
+            "difficulty": 2,
+            "rating": "9.0"
+        },
+        {
+            "idx": 25,
+            "id": "flyburg",
+            "title": "Flyburg and Endroll",
+            "difficulty": 2,
+            "rating": "9.0"
+        },
+        {
+            "idx": 318,
+            "id": "galacticlove",
+            "title": "Galactic Love",
+            "difficulty": 2,
+            "rating": "9.0"
+        },
+        {
+            "idx": 186,
+            "id": "jump",
+            "title": "Jump",
+            "difficulty": 2,
+            "rating": "9.0"
+        },
+        {
+            "idx": 33,
+            "id": "kanagawa",
+            "title": "Kanagawa Cyber Culvert",
+            "difficulty": 2,
+            "rating": "9.0"
+        },
+        {
+            "idx": 282,
+            "id": "last",
+            "title": "Last",
+            "difficulty": 2,
+            "rating": "9.0"
+        },
+        {
+            "idx": 319,
+            "id": "lawlesspoint",
+            "title": "Lawless Point",
+            "difficulty": 2,
+            "rating": "9.0"
+        },
+        {
+            "idx": 348,
+            "id": "primevaltexture",
+            "title": "Primeval Texture",
+            "difficulty": 2,
+            "rating": "9.0"
+        },
+        {
+            "idx": 118,
+            "id": "revixy",
+            "title": "ReviXy",
+            "difficulty": 2,
+            "rating": "9.0"
+        },
+        {
+            "idx": 218,
+            "id": "turbocharger",
+            "title": "Turbocharger",
+            "difficulty": 2,
+            "rating": "9.0"
+        },
+        {
+            "idx": 12,
+            "id": "shadesoflight",
+            "title": "Shades of Light in a Transcendent Realm",
+            "difficulty": 3,
+            "rating": "9.0"
+        },
+        {
+            "idx": 13,
+            "id": "vexaria",
+            "title": "Vexaria",
+            "difficulty": 3,
+            "rating": "9.0"
+        },
+        {
+            "idx": 91,
+            "id": "dropdead",
+            "title": "dropdead",
+            "difficulty": 2,
+            "rating": "8.9"
+        },
+        {
+            "idx": 341,
+            "id": "abstrusedilemma",
+            "title": "Abstruse Dilemma",
+            "difficulty": 1,
+            "rating": "8.9"
+        },
+        {
+            "idx": 298,
+            "id": "chronicle",
+            "title": "Chronicle",
+            "difficulty": 1,
+            "rating": "8.9"
+        },
+        {
+            "idx": 230,
+            "id": "genocider",
+            "title": "GENOCIDER",
+            "difficulty": 1,
+            "rating": "8.9"
+        },
+        {
+            "idx": 326,
+            "id": "lucidtraveler",
+            "title": "Lucid Traveler",
+            "difficulty": 1,
+            "rating": "8.9"
+        },
+        {
+            "idx": 220,
+            "id": "rekkaresonance",
+            "title": "REKKA RESONANCE",
+            "difficulty": 1,
+            "rating": "8.9"
+        },
+        {
+            "idx": 356,
+            "id": "teravolt",
+            "title": "TeraVolt",
+            "difficulty": 1,
+            "rating": "8.9"
+        },
+        {
+            "idx": 322,
+            "id": "tothemilkyway",
+            "title": "To the Milky Way",
+            "difficulty": 1,
+            "rating": "8.9"
+        },
+        {
+            "idx": 131,
+            "id": "chelsea",
+            "title": "Chelsea",
+            "difficulty": 2,
+            "rating": "8.9"
+        },
+        {
+            "idx": 32,
+            "id": "chronostasis",
+            "title": "Chronostasis",
+            "difficulty": 2,
+            "rating": "8.9"
+        },
+        {
+            "idx": 36,
+            "id": "evoltex",
+            "title": "Evoltex (poppi'n mix)",
+            "difficulty": 2,
+            "rating": "8.9"
+        },
+        {
+            "idx": 24,
+            "id": "flashback",
+            "title": "Flashback",
+            "difficulty": 2,
+            "rating": "8.9"
+        },
+        {
+            "idx": 163,
+            "id": "givemeanightmare",
+            "title": "Give Me a Nightmare",
+            "difficulty": 2,
+            "rating": "8.9"
+        },
+        {
+            "idx": 249,
+            "id": "lightsofmuse",
+            "title": "Lights of Muse",
+            "difficulty": 2,
+            "rating": "8.9"
+        },
+        {
+            "idx": 82,
+            "id": "mazenine",
+            "title": "Maze No.9",
+            "difficulty": 2,
+            "rating": "8.9"
+        },
+        {
+            "idx": 9,
+            "id": "memoryfactory",
+            "title": "memoryfactory.lzh",
+            "difficulty": 2,
+            "rating": "8.9"
+        },
+        {
+            "idx": 106,
+            "id": "merlin",
+            "title": "MERLIN",
+            "difficulty": 2,
+            "rating": "8.9"
+        },
+        {
+            "idx": 88,
+            "id": "suomi",
+            "title": "Suomi",
+            "difficulty": 4,
+            "rating": "8.9"
+        },
+        {
+            "idx": 374,
+            "id": "alephzero",
+            "title": "Aleph-0",
+            "difficulty": 1,
+            "rating": "8.8"
+        },
+        {
+            "idx": 299,
+            "id": "nullapophenia",
+            "title": "NULL APOPHENIA",
+            "difficulty": 1,
+            "rating": "8.8"
+        },
+        {
+            "idx": 308,
+            "id": "primitivelights",
+            "title": "PRIMITIVE LIGHTS",
+            "difficulty": 1,
+            "rating": "8.8"
+        },
+        {
+            "idx": 113,
+            "id": "antithese",
+            "title": "Antithese",
+            "difficulty": 2,
+            "rating": "8.8"
+        },
+        {
+            "idx": 240,
+            "id": "cosmica",
+            "title": "Cosmica",
+            "difficulty": 2,
+            "rating": "8.8"
+        },
+        {
+            "idx": 309,
+            "id": "cosmopop",
+            "title": "Cosmo Pop Funclub",
+            "difficulty": 2,
+            "rating": "8.8"
+        },
+        {
+            "idx": 304,
+            "id": "cycles",
+            "title": "CYCLES",
+            "difficulty": 2,
+            "rating": "8.8"
+        },
+        {
+            "idx": 293,
+            "id": "dialnote",
+            "title": "Dialnote",
+            "difficulty": 2,
+            "rating": "8.8"
+        },
+        {
+            "idx": 381,
+            "id": "morningloom",
+            "title": "MORNINGLOOM",
+            "difficulty": 2,
+            "rating": "8.8"
+        },
+        {
+            "idx": 73,
+            "id": "nexttoyou",
+            "title": "next to you",
+            "difficulty": 2,
+            "rating": "8.8"
+        },
+        {
+            "idx": 127,
+            "id": "particlearts",
+            "title": "Particle Arts",
+            "difficulty": 2,
+            "rating": "8.8"
+        },
+        {
+            "idx": 112,
+            "id": "solitarydream",
+            "title": "Solitary Dream",
+            "difficulty": 2,
+            "rating": "8.8"
+        },
+        {
+            "idx": 60,
+            "id": "surrender",
+            "title": "Surrender",
+            "difficulty": 2,
+            "rating": "8.8"
+        },
+        {
+            "idx": 166,
+            "id": "vividtheory",
+            "title": "Vivid Theory",
+            "difficulty": 2,
+            "rating": "8.8"
+        },
+        {
+            "idx": 39,
+            "id": "clotho",
+            "title": "Clotho and the stargazer",
+            "difficulty": 4,
+            "rating": "8.8"
+        },
+        {
+            "idx": 390,
+            "id": "epicurus",
+            "title": "Hidden Rainbows of Epicurus",
+            "difficulty": 4,
+            "rating": "8.8"
+        },
+        {
+            "idx": 279,
+            "id": "arcanaeden",
+            "title": "Arcana Eden",
+            "difficulty": 1,
+            "rating": "8.7"
+        },
+        {
+            "idx": 394,
+            "id": "backtobasics",
+            "title": "Back to Basics",
+            "difficulty": 1,
+            "rating": "8.7"
+        },
+        {
+            "idx": 278,
+            "id": "pentiment",
+            "title": "Pentiment",
+            "difficulty": 1,
+            "rating": "8.7"
+        },
+        {
+            "idx": 188,
+            "id": "besideyou",
+            "title": "Beside You",
+            "difficulty": 2,
+            "rating": "8.7"
+        },
+        {
+            "idx": 80,
+            "id": "callmyname",
+            "title": "Call My Name feat. Yukacco",
+            "difficulty": 2,
+            "rating": "8.7"
+        },
+        {
+            "idx": 3,
+            "id": "viyella",
+            "title": "cry of viyella",
+            "difficulty": 2,
+            "rating": "8.7"
+        },
+        {
+            "idx": 119,
+            "id": "grimheart",
+            "title": "Grimheart",
+            "difficulty": 2,
+            "rating": "8.7"
+        },
+        {
+            "idx": 373,
+            "id": "ionostream",
+            "title": "IONOSTREAM",
+            "difficulty": 2,
+            "rating": "8.7"
+        },
+        {
+            "idx": 209,
+            "id": "paperwitch",
+            "title": "Paper Witch",
+            "difficulty": 2,
+            "rating": "8.7"
+        },
+        {
+            "idx": 66,
+            "id": "quon",
+            "title": "Quon",
+            "difficulty": 2,
+            "rating": "8.7"
+        },
+        {
+            "idx": 142,
+            "id": "senkyou",
+            "title": "Senkyou",
+            "difficulty": 2,
+            "rating": "8.7"
+        },
+        {
+            "idx": 294,
+            "id": "tsukinimurakumo",
+            "title": "Tsuki ni Murakumo, Hana ni Kaze",
+            "difficulty": 2,
+            "rating": "8.7"
+        },
+        {
+            "idx": 337,
+            "id": "waitfordawn",
+            "title": "WAIT FOR DAWN",
+            "difficulty": 2,
+            "rating": "8.7"
+        },
+        {
+            "idx": 176,
+            "id": "buchigireberserker",
+            "title": "BUCHiGiRE Berserker",
+            "difficulty": 1,
+            "rating": "8.6"
+        },
+        {
+            "idx": 351,
+            "id": "egoeimi",
+            "title": "Ego Eimi",
+            "difficulty": 1,
+            "rating": "8.6"
+        },
+        {
+            "idx": 222,
+            "id": "hivemind",
+            "title": "HIVEMIND",
+            "difficulty": 1,
+            "rating": "8.6"
+        },
+        {
+            "idx": 16,
+            "id": "pragmatism",
+            "title": "PRAGMATISM",
+            "difficulty": 1,
+            "rating": "8.6"
+        },
+        {
+            "idx": 195,
+            "id": "aprilshowers",
+            "title": "April showers",
+            "difficulty": 2,
+            "rating": "8.6"
+        },
+        {
+            "idx": 204,
+            "id": "enchantedlove",
+            "title": "enchanted love",
+            "difficulty": 2,
+            "rating": "8.6"
+        },
+        {
+            "idx": 138,
+            "id": "freefall",
+            "title": "FREEF4LL",
+            "difficulty": 2,
+            "rating": "8.6"
+        },
+        {
+            "idx": 165,
+            "id": "gekka",
+            "title": "Gekka (Short Version)",
+            "difficulty": 2,
+            "rating": "8.6"
+        },
+        {
+            "idx": 69,
+            "id": "silentrush",
+            "title": "Silent Rush",
+            "difficulty": 2,
+            "rating": "8.6"
+        },
+        {
+            "idx": 261,
+            "id": "aurgelmir",
+            "title": "Aurgelmir",
+            "difficulty": 1,
+            "rating": "8.5"
+        },
+        {
+            "idx": 55,
+            "id": "axiumcrisis",
+            "title": "Axium Crisis",
+            "difficulty": 1,
+            "rating": "8.5"
+        },
+        {
+            "idx": 289,
+            "id": "lamia",
+            "title": "LAMIA",
+            "difficulty": 1,
+            "rating": "8.5"
+        },
+        {
+            "idx": 242,
+            "id": "livefastdieyoung",
+            "title": "Live Fast Die Young",
+            "difficulty": 1,
+            "rating": "8.5"
+        },
+        {
+            "idx": 201,
+            "id": "gou",
+            "title": "Misdeed -la bont\u00e9 de Dieu et l'origine du mal-",
+            "difficulty": 1,
+            "rating": "8.5"
+        },
+        {
+            "idx": 216,
+            "id": "overwhelm",
+            "title": "Overwhelm",
+            "difficulty": 1,
+            "rating": "8.5"
+        },
+        {
+            "idx": 343,
+            "id": "tothefurthestdream",
+            "title": "To the Furthest Dream",
+            "difficulty": 1,
+            "rating": "8.5"
+        },
+        {
+            "idx": 384,
+            "id": "ultradiaxon",
+            "title": "ultradiaxon-N3",
+            "difficulty": 1,
+            "rating": "8.5"
+        },
+        {
+            "idx": 271,
+            "id": "altair",
+            "title": "Altair (feat. *spiLa*)",
+            "difficulty": 2,
+            "rating": "8.5"
+        },
+        {
+            "idx": 8,
+            "id": "babaroque",
+            "title": "Babaroque",
+            "difficulty": 2,
+            "rating": "8.5"
+        },
+        {
+            "idx": 20,
+            "id": "dandelion",
+            "title": "Dandelion",
+            "difficulty": 2,
+            "rating": "8.5"
+        },
+        {
+            "idx": 263,
+            "id": "ddd",
+            "title": "DDD",
+            "difficulty": 2,
+            "rating": "8.5"
+        },
+        {
+            "idx": 47,
+            "id": "harutopia",
+            "title": "Harutopia ~Utopia of Spring~",
+            "difficulty": 2,
+            "rating": "8.5"
+        },
+        {
+            "idx": 372,
+            "id": "innocence",
+            "title": "Innocence",
+            "difficulty": 2,
+            "rating": "8.5"
+        },
+        {
+            "idx": 68,
+            "id": "reinvent",
+            "title": "Reinvent",
+            "difficulty": 2,
+            "rating": "8.5"
+        },
+        {
+            "idx": 330,
+            "id": "syuten",
+            "title": "sy\u016bten",
+            "difficulty": 2,
+            "rating": "8.5"
+        },
+        {
+            "idx": 0,
+            "id": "sayonarahatsukoi",
+            "title": "Sayonara Hatsukoi",
+            "difficulty": 4,
+            "rating": "8.5"
+        },
+        {
+            "idx": 117,
+            "id": "cyaegha",
+            "title": "Cyaegha",
+            "difficulty": 1,
+            "rating": "8.4"
+        },
+        {
+            "idx": 130,
+            "id": "ringedgenesis",
+            "title": "Ringed Genesis",
+            "difficulty": 1,
+            "rating": "8.4"
+        },
+        {
+            "idx": 184,
+            "id": "eccentrictale",
+            "title": "Eccentric Tale",
+            "difficulty": 2,
+            "rating": "8.4"
+        },
+        {
+            "idx": 254,
+            "id": "internetoverdose",
+            "title": "INTERNET OVERDOSE",
+            "difficulty": 2,
+            "rating": "8.4"
+        },
+        {
+            "idx": 18,
+            "id": "lumia",
+            "title": "Lumia",
+            "difficulty": 2,
+            "rating": "8.4"
+        },
+        {
+            "idx": 45,
+            "id": "moonheart",
+            "title": "Moonheart",
+            "difficulty": 2,
+            "rating": "8.4"
+        },
+        {
+            "idx": 95,
+            "id": "purgatorium",
+            "title": "Purgatorium",
+            "difficulty": 2,
+            "rating": "8.4"
+        },
+        {
+            "idx": 49,
+            "id": "rabbitintheblackroom",
+            "title": "Rabbit In The Black Room",
+            "difficulty": 2,
+            "rating": "8.4"
+        },
+        {
+            "idx": 35,
+            "id": "reconstruction",
+            "title": "REconstruction",
+            "difficulty": 2,
+            "rating": "8.4"
+        },
+        {
+            "idx": 10,
+            "id": "snowwhite",
+            "title": "Snow White",
+            "difficulty": 2,
+            "rating": "8.4"
+        },
+        {
+            "idx": 203,
+            "id": "attraqtia",
+            "title": "AttraqtiA",
+            "difficulty": 1,
+            "rating": "8.3"
+        },
+        {
+            "idx": 86,
+            "id": "etherstrike",
+            "title": "Ether Strike",
+            "difficulty": 1,
+            "rating": "8.3"
+        },
+        {
+            "idx": 148,
+            "id": "izana",
+            "title": "IZANA",
+            "difficulty": 1,
+            "rating": "8.3"
+        },
+        {
+            "idx": 383,
+            "id": "mirinae",
+            "title": "MIRINAE",
+            "difficulty": 1,
+            "rating": "8.3"
+        },
+        {
+            "idx": 89,
+            "id": "bookmaker",
+            "title": "Bookmaker (2D Version)",
+            "difficulty": 2,
+            "rating": "8.3"
+        },
+        {
+            "idx": 122,
+            "id": "dottodot",
+            "title": "Dot to Dot feat. shully",
+            "difficulty": 2,
+            "rating": "8.3"
+        },
+        {
+            "idx": 152,
+            "id": "oblivia",
+            "title": "Oblivia",
+            "difficulty": 2,
+            "rating": "8.3"
+        },
+        {
+            "idx": 270,
+            "id": "sanskia",
+            "title": "san skia",
+            "difficulty": 2,
+            "rating": "8.3"
+        },
+        {
+            "idx": 12,
+            "id": "shadesoflight",
+            "title": "Shades of Light in a Transcendent Realm",
+            "difficulty": 2,
+            "rating": "8.3"
+        },
+        {
+            "idx": 134,
+            "id": "tiemedowngently",
+            "title": "Tie me down gently",
+            "difficulty": 2,
+            "rating": "8.3"
+        },
+        {
+            "idx": 260,
+            "id": "avril",
+            "title": "\u00c4vril -Flicka i krans-",
+            "difficulty": 2,
+            "rating": "8.3"
+        },
+        {
+            "idx": 158,
+            "id": "dantalion",
+            "title": "Dantalion",
+            "difficulty": 1,
+            "rating": "8.2"
+        },
+        {
+            "idx": 85,
+            "id": "halcyon",
+            "title": "Halcyon",
+            "difficulty": 1,
+            "rating": "8.2"
+        },
+        {
+            "idx": 377,
+            "id": "qovat",
+            "title": "Qovat",
+            "difficulty": 1,
+            "rating": "8.2"
+        },
+        {
+            "idx": 307,
+            "id": "temptation",
+            "title": "TEmPTaTiON",
+            "difficulty": 1,
+            "rating": "8.2"
+        },
+        {
+            "idx": 167,
+            "id": "onefr",
+            "title": "1F\u221a",
+            "difficulty": 2,
+            "rating": "8.2"
+        },
+        {
+            "idx": 234,
+            "id": "bluecomet",
+            "title": "blue comet",
+            "difficulty": 2,
+            "rating": "8.2"
+        },
+        {
+            "idx": 46,
+            "id": "genesis",
+            "title": "Genesis",
+            "difficulty": 2,
+            "rating": "8.2"
+        },
+        {
+            "idx": 98,
+            "id": "hallofmirrors",
+            "title": "Hall of Mirrors",
+            "difficulty": 2,
+            "rating": "8.2"
+        },
+        {
+            "idx": 5,
+            "id": "lucifer",
+            "title": "Lucifer",
+            "difficulty": 2,
+            "rating": "8.2"
+        },
+        {
+            "idx": 59,
+            "id": "onelastdrive",
+            "title": "One Last Drive",
+            "difficulty": 2,
+            "rating": "8.2"
+        },
+        {
+            "idx": 236,
+            "id": "gengaozo",
+            "title": "G e n g a o z o",
+            "difficulty": 1,
+            "rating": "8.1"
+        },
+        {
+            "idx": 339,
+            "id": "riseoftheworld",
+            "title": "Rise of the World",
+            "difficulty": 1,
+            "rating": "8.1"
+        },
+        {
+            "idx": 340,
+            "id": "unknownlevels",
+            "title": "UNKNOWN LEVELS",
+            "difficulty": 1,
+            "rating": "8.1"
+        },
+        {
+            "idx": 324,
+            "id": "bulletwaiting",
+            "title": "Bullet Waiting for Me (James Landino remix)",
+            "difficulty": 2,
+            "rating": "8.1"
+        },
+        {
+            "idx": 137,
+            "id": "diode",
+            "title": "Diode",
+            "difficulty": 2,
+            "rating": "8.1"
+        },
+        {
+            "idx": 96,
+            "id": "hikari",
+            "title": "Hikari",
+            "difficulty": 2,
+            "rating": "8.1"
+        },
+        {
+            "idx": 7,
+            "id": "hearditsaid",
+            "title": "I've heard it said",
+            "difficulty": 2,
+            "rating": "8.1"
+        },
+        {
+            "idx": 398,
+            "id": "blackmind",
+            "title": "Black MInD",
+            "difficulty": 1,
+            "rating": "8.0"
+        },
+        {
+            "idx": 300,
+            "id": "crimsonthrone",
+            "title": "Crimson Throne",
+            "difficulty": 1,
+            "rating": "8.0"
+        },
+        {
+            "idx": 389,
+            "id": "desive",
+            "title": "D\u00e9sive",
+            "difficulty": 1,
+            "rating": "8.0"
+        },
+        {
+            "idx": 360,
+            "id": "edenwacca",
+            "title": "eden",
+            "difficulty": 1,
+            "rating": "8.0"
+        },
+        {
+            "idx": 76,
+            "id": "guardina",
+            "title": "\u03b3uar\u03b4ina",
+            "difficulty": 1,
+            "rating": "8.0"
+        },
+        {
+            "idx": 264,
+            "id": "prism",
+            "title": "Prism",
+            "difficulty": 2,
+            "rating": "8.0"
+        },
+        {
+            "idx": 11,
+            "id": "relentless",
+            "title": "Relentless",
+            "difficulty": 2,
+            "rating": "8.0"
+        },
+        {
+            "idx": 150,
+            "id": "worldexecuteme",
+            "title": "world.execute(me);",
+            "difficulty": 2,
+            "rating": "8.0"
+        }
+    ]
+}
