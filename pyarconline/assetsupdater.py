@@ -14,7 +14,7 @@ def find_matching_images(pattern, directory):
     return matching_files
 
 
-img_path = r"C:\Users\Bangn\Downloads\arcaea_5.9.3c\assets\songs"
+img_path = r"C:\Users\Bangn\Downloads\Programs\arcaea_6.0.3c\assets\songs"
 songs = SongList("./pyarconline/songlist")
 if not os.path.exists(ASSETS_PATH):
     os.mkdir(ASSETS_PATH)

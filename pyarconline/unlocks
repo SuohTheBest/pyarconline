@@ -1874,7 +1874,7 @@
       "conditions": [
         {
           "type": 1,
-          "song_id": "particlearts",
+          "song_id": "saintorsinner",
           "song_difficulty": 2,
           "grade": 0
         },
@@ -3541,8 +3541,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3555,8 +3555,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3569,8 +3569,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3583,8 +3583,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3597,8 +3597,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3611,8 +3611,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3625,8 +3625,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3639,8 +3639,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3653,8 +3653,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3667,8 +3667,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3681,8 +3681,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3695,8 +3695,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3709,8 +3709,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3723,8 +3723,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3737,8 +3737,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -3751,8 +3751,8 @@
         },
         {
           "type": 101,
-          "min": 5,
-          "max": 15
+          "min": 15,
+          "max": 40
         }
       ]
     },
@@ -4137,12 +4137,14 @@
               "type": 6,
               "count": 1,
               "rating": 10,
-              "ratingPlus": true
+              "ratingPlus": true,
+              "grade": 0
             },
             {
               "type": 6,
               "count": 10,
-              "rating": 10
+              "rating": 10,
+              "grade": 0
             }
           ]
         },
@@ -5078,12 +5080,14 @@
               "type": 6,
               "count": 1,
               "rating": 10,
-              "ratingPlus": true
+              "ratingPlus": true,
+              "grade": 0
             },
             {
               "type": 6,
               "count": 10,
-              "rating": 10
+              "rating": 10,
+              "grade": 0
             }
           ]
         },
@@ -5399,6 +5403,586 @@
         },
         {
           "type": 112
+        }
+      ]
+    },
+    {
+      "songId": "mvurbd",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 0,
+          "credit": 50
+        }
+      ]
+    },
+    {
+      "songId": "mvurbd",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "waltzforlorelei",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "invertedworld",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "dualdoom",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 150
+        }
+      ]
+    },
+    {
+      "songId": "vulcanus",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "mvurbd",
+          "song_difficulty": 1,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 80
+        }
+      ]
+    },
+    {
+      "songId": "vulcanus",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "mvurbd",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 180
+        }
+      ]
+    },
+    {
+      "songId": "invertedworld",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 4,
+          "conditions": [
+            {
+              "type": 8,
+              "song_id": "invertedworld",
+              "song_difficulty": 2,
+              "lamp": 2
+            },
+            {
+              "type": 3,
+              "song_id": "invertedworld",
+              "song_difficulty": 2,
+              "grade": 4,
+              "times": 3
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "credit": 180
+        }
+      ]
+    },
+    {
+      "songId": "andrevivemelody",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "dontfightmusic",
+          "song_difficulty": 1,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 80
+        }
+      ]
+    },
+    {
+      "songId": "andrevivemelody",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 2,
+          "song_id": "dontfightmusic",
+          "song_difficulty": 4
+        },
+        {
+          "type": 0,
+          "credit": 180
+        }
+      ]
+    },
+    {
+      "songId": "dontfightmusic",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 0,
+          "credit": 50
+        }
+      ]
+    },
+    {
+      "songId": "dontfightmusic",
+      "ratingClass": 4,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "dontfightmusic",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "liftoff",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "superambulance",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 180
+        }
+      ]
+    },
+    {
+      "songId": "designant",
+      "ratingClass": 0,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        },
+        {
+          "type": 2,
+          "song_id": "lamentrain",
+          "song_difficulty": 0
+        }
+      ]
+    },
+    {
+      "songId": "designant",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        },
+        {
+          "type": 2,
+          "song_id": "lamentrain",
+          "song_difficulty": 1
+        }
+      ]
+    },
+    {
+      "songId": "designant",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        },
+        {
+          "type": 2,
+          "song_id": "lamentrain",
+          "song_difficulty": 2
+        }
+      ]
+    },
+    {
+      "songId": "designant",
+      "ratingClass": 3,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        },
+        {
+          "type": 2,
+          "song_id": "lamentrain",
+          "song_difficulty": 3
+        }
+      ]
+    },
+    {
+      "songId": "astralquant",
+      "ratingClass": 0,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "songId": "astralquant",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "songId": "astralquant",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 101,
+          "min": 0,
+          "max": 0
+        }
+      ]
+    },
+    {
+      "songId": "lamentrain",
+      "ratingClass": 0,
+      "conditions": [
+        {
+          "type": 10,
+          "major": 20,
+          "minor": 5
+        },
+        {
+          "type": 0,
+          "credit": 20
+        }
+      ]
+    },
+    {
+      "songId": "lamentrain",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 10,
+          "major": 20,
+          "minor": 5
+        },
+        {
+          "type": 1,
+          "song_id": "breachoffaith",
+          "song_difficulty": 1,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 80
+        }
+      ]
+    },
+    {
+      "songId": "lamentrain",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 10,
+          "major": 20,
+          "minor": 5
+        },
+        {
+          "type": 4,
+          "conditions": [
+            {
+              "type": 1,
+              "song_id": "swansong",
+              "song_difficulty": 2,
+              "grade": 5
+            },
+            {
+              "type": 3,
+              "song_id": "swansong",
+              "song_difficulty": 2,
+              "grade": 4,
+              "times": 5
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "conditions": [
+            {
+              "type": 1,
+              "song_id": "renegade",
+              "song_difficulty": 2,
+              "grade": 5
+            },
+            {
+              "type": 3,
+              "song_id": "renegade",
+              "song_difficulty": 2,
+              "grade": 4,
+              "times": 5
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "conditions": [
+            {
+              "type": 1,
+              "song_id": "raysofremnant",
+              "song_difficulty": 2,
+              "grade": 5
+            },
+            {
+              "type": 3,
+              "song_id": "raysofremnant",
+              "song_difficulty": 2,
+              "grade": 4,
+              "times": 5
+            }
+          ]
+        },
+        {
+          "type": 4,
+          "conditions": [
+            {
+              "type": 1,
+              "song_id": "breachoffaith",
+              "song_difficulty": 2,
+              "grade": 4
+            },
+            {
+              "type": 3,
+              "song_id": "breachoffaith",
+              "song_difficulty": 2,
+              "grade": 3,
+              "times": 5
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "credit": 150
+        }
+      ]
+    },
+    {
+      "songId": "lamentrain",
+      "ratingClass": 3,
+      "conditions": [
+        {
+          "type": 10,
+          "major": 20,
+          "minor": 5
+        },
+        {
+          "type": 1,
+          "song_id": "breachoffaith",
+          "song_difficulty": 3,
+          "grade": 0
+        },
+        {
+          "type": 5,
+          "rating": 1100
+        },
+        {
+          "type": 0,
+          "credit": 360
+        }
+      ]
+    },
+    {
+      "songId": "breachoffaith",
+      "ratingClass": 1,
+      "conditions": [
+        {
+          "type": 0,
+          "credit": 50
+        }
+      ]
+    },
+    {
+      "songId": "breachoffaith",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "renegade",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "raysofremnant",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 90
+        }
+      ]
+    },
+    {
+      "songId": "breachoffaith",
+      "ratingClass": 3,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "renegade",
+          "song_difficulty": 3,
+          "grade": 0
+        },
+        {
+          "type": 1,
+          "song_id": "raysofremnant",
+          "song_difficulty": 3,
+          "grade": 0
+        },
+        {
+          "type": 6,
+          "count": 3,
+          "rating": 9,
+          "grade": 6
+        },
+        {
+          "type": 0,
+          "credit": 180
+        }
+      ]
+    },
+    {
+      "songId": "renegade",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "swansong",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 75
+        }
+      ]
+    },
+    {
+      "songId": "renegade",
+      "ratingClass": 3,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "swansong",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 9,
+          "count": 1,
+          "difficulty": 4,
+          "grade": 5
+        },
+        {
+          "type": 0,
+          "credit": 150
+        }
+      ]
+    },
+    {
+      "songId": "raysofremnant",
+      "ratingClass": 2,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "swansong",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 0,
+          "credit": 75
+        }
+      ]
+    },
+    {
+      "songId": "raysofremnant",
+      "ratingClass": 3,
+      "conditions": [
+        {
+          "type": 1,
+          "song_id": "swansong",
+          "song_difficulty": 2,
+          "grade": 0
+        },
+        {
+          "type": 9,
+          "count": 1,
+          "difficulty": 3,
+          "grade": 5
+        },
+        {
+          "type": 0,
+          "credit": 150
+        }
+      ]
+    },
+    {
+      "songId": "nullapophenia",
+      "ratingClass": 2,
+           "conditions": [
+        {
+          "type": 4,
+          "conditions": [
+            {
+              "type": 6,
+              "count": 1,
+              "rating": 10,
+              "ratingPlus": true,
+              "grade": 0
+            },
+            {
+              "type": 6,
+              "count": 10,
+              "rating": 10,
+              "grade": 0
+            }
+          ]
+        },
+        {
+          "type": 5,
+          "rating": 1000
+        },
+        {
+          "type": 0,
+          "credit": 360
         }
       ]
     }

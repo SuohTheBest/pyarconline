@@ -1,5 +1,5 @@
 {
-    "version": "5.8.0",
+    "version": "5.9.0",
     "value": [
         {
             "idx": 280,
@@ -49,6 +49,13 @@
             "title": "Grievous Lady",
             "difficulty": 2,
             "rating": "11.3"
+        },
+        {
+            "idx": 406,
+            "id": "judgement",
+            "title": "ALTER EGO",
+            "difficulty": 4,
+            "rating": "11.2"
         },
         {
             "idx": 277,
@@ -429,6 +436,13 @@
             "rating": "10.5"
         },
         {
+            "idx": 406,
+            "id": "judgement",
+            "title": "ALTER EGO",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
             "idx": 279,
             "id": "arcanaeden",
             "title": "Arcana Eden",
@@ -593,6 +607,13 @@
             "idx": 124,
             "id": "ikazuchi",
             "title": "Ikazuchi",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 405,
+            "id": "ashenboundary",
+            "title": "Judgement",
             "difficulty": 2,
             "rating": "10.4"
         },
@@ -1017,6 +1038,13 @@
             "rating": "9.9"
         },
         {
+            "idx": 404,
+            "id": "hypnotize",
+            "title": "Ashen 6oundary",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
             "idx": 297,
             "id": "astrawalkthrough",
             "title": "Astra walkthrough",
@@ -1143,6 +1171,13 @@
             "rating": "9.9"
         },
         {
+            "idx": 403,
+            "id": "invain",
+            "title": "Hypnotize",
+            "difficulty": 4,
+            "rating": "9.9"
+        },
+        {
             "idx": 19,
             "id": "dement",
             "title": "Dement ~after legend~",
@@ -1202,6 +1237,13 @@
             "idx": 275,
             "id": "defection",
             "title": "Defection",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 400,
+            "id": "alterego",
+            "title": "Distortion Human",
             "difficulty": 2,
             "rating": "9.8"
         },
@@ -1349,6 +1391,13 @@
             "idx": 168,
             "id": "scarletcage",
             "title": "Scarlet Cage",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 401,
+            "id": "distortionhuman",
+            "title": "shrink",
             "difficulty": 2,
             "rating": "9.8"
         },
@@ -1906,6 +1955,13 @@
             "rating": "9.5"
         },
         {
+            "idx": 402,
+            "id": "shrink",
+            "title": "In Vain",
+            "difficulty": 2,
+            "rating": "9.5"
+        },
+        {
             "idx": 172,
             "id": "mahoroba",
             "title": "MAHOROBA",
@@ -2354,6 +2410,13 @@
             "rating": "9.2"
         },
         {
+            "idx": 406,
+            "id": "judgement",
+            "title": "ALTER EGO",
+            "difficulty": 1,
+            "rating": "9.2"
+        },
+        {
             "idx": 183,
             "id": "alicealamode",
             "title": "Alice \u00e0 la mode",
@@ -2704,6 +2767,13 @@
             "rating": "8.9"
         },
         {
+            "idx": 403,
+            "id": "invain",
+            "title": "Hypnotize",
+            "difficulty": 2,
+            "rating": "8.9"
+        },
+        {
             "idx": 249,
             "id": "lightsofmuse",
             "title": "Lights of Muse",
@@ -2959,6 +3029,13 @@
             "idx": 222,
             "id": "hivemind",
             "title": "HIVEMIND",
+            "difficulty": 1,
+            "rating": "8.6"
+        },
+        {
+            "idx": 405,
+            "id": "ashenboundary",
+            "title": "Judgement",
             "difficulty": 1,
             "rating": "8.6"
         },

@@ -161,6 +161,8 @@ class SongList:
 
     def get_song_name(self, song_idx: int, is_beyond: bool, country: str = 'en'):
         song = self.song_list[song_idx]
+        if 'deleted' in song:
+            return ''
         if country in song['title_localized']:
             song_name = song['title_localized'][country]
         else:
@@ -312,8 +314,8 @@ class DifficultyRatingList:
         """
         # back_up
         self.save()
-        with (open(RATINGS_PATH, 'rb', encoding='UTF-8') as source,
-              open(RATINGS_OLD_PATH, 'wb', encoding='UTF-8') as target):
+        with (open(RATINGS_PATH, 'r', encoding='UTF-8') as source,
+              open(RATINGS_OLD_PATH, 'w', encoding='UTF-8') as target):
             target.write(source.read())
         self.version = "0.0"
         self.rating_list = []
@@ -354,6 +356,7 @@ class DifficultyRatingList:
                 is_beyond = False
                 if difficulty == 3:
                     is_beyond = True
+                # song_id, song_idx = await self.song_list.get_song_id_idx(title_space, is_beyond)
                 try:
                     song_id, song_idx = await self.song_list.get_song_id_idx(title_space, is_beyond)
                 except Exception:
