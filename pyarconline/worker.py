@@ -9,7 +9,7 @@ import time
 from PIL import Image, ImageFont, ImageDraw
 
 from pyarconline import WebapiUtils, SongList, DifficultyRatingList, FriendManager
-from .config import ASSETS_PATH, CHARACTER_PATH, IMG_SAVE_PATH, DB_PATH, CHIERI_BG_PATH, CHIERI_MASK_PATH, \
+from .config import CHARACTER_PATH, IMG_SAVE_PATH, DB_PATH, CHIERI_BG_PATH, CHIERI_MASK_PATH, \
     get_diamond_path, SansSerifFLF_PATH, OpenSans_Regular_PATH, Roboto_Light_PATH, Exo_Regular_PATH, CHIERI_TABLE_PATH, \
     get_cover_path, get_diff_path, get_grade_path
 from .utils import check_response
@@ -60,16 +60,10 @@ class QueryWorker(threading.Thread):
             rows_dict = {(row[0], row[1]): row for row in rows}
             priority_queue = []
             song_size = len(self.difficulty_rating)
-            i = 0
-            for item in rows:
-                i += 1
-                if i > 30:
-                    break
-                heapq.heappush(priority_queue, item[8])
 
             if work_type == 'b30':
                 for i in range(song_size):
-                    b30_low_potential = 0.0 if len(priority_queue) == 0 else priority_queue[0]
+                    b30_low_potential = 0.0 if len(priority_queue) < 33 else priority_queue[0]
                     print("current:", i, "b30_low_potential:", b30_low_potential)
                     curr_song = self.difficulty_rating[i]
                     curr_rating = curr_song["rating"]
@@ -81,12 +75,13 @@ class QueryWorker(threading.Thread):
                         break
                     if (curr_idx, curr_difficulty) in rows_dict and last_active <= \
                             rows_dict[(curr_idx, curr_difficulty)][5]:
+                        heapq.heappush(priority_queue, rows_dict[(curr_idx, curr_difficulty)][8])
                         print("continue")
                         continue
                     curr_potential = self.update(curr_idx, curr_id, curr_difficulty, user_id, curr_rating, tables)
                     if curr_potential is not None:
                         heapq.heappush(priority_queue, curr_potential)
-                    if len(priority_queue) > 30:
+                    if len(priority_queue) > 33:
                         heapq.heappop(priority_queue)
                 self.q2.put(workload)
                 sem2.release()
@@ -231,16 +226,16 @@ class DrawingWorker(threading.Thread):
             # 7. write rating
             SansSerifFLF = ImageFont.truetype(SansSerifFLF_PATH, 90)
             self.write_boarder(draw, (191, 270), self.rating2str(rating), (255, 255, 255), SansSerifFLF, (98, 8, 98))
-            # 8. write b30 and max_b30
+            # 8. write b30 and r10
             b30 = b30_sum / 30
             r10 = 4 * (rating / 100 - 0.75 * b30)
             SansSerifFLF = ImageFont.truetype(SansSerifFLF_PATH, 77)
-            draw.text((450, 547), str(round(b30, 3)), (255, 255, 255), SansSerifFLF)
-            draw.text((450, 637), str(round(r10, 3)), (255, 255, 255), SansSerifFLF)
+            draw.text((450, 547), format(b30, ".3f"), (255, 255, 255), SansSerifFLF)
+            draw.text((450, 637), format(r10, ".3f"), (255, 255, 255), SansSerifFLF)
             # 9. write max_b30
             max_b30 = (b30_sum + b10_sum) / 40
             SansSerifFLF = ImageFont.truetype(SansSerifFLF_PATH, 49)
-            draw.text((884, 648), str(round(max_b30, 3)), (255, 255, 255), SansSerifFLF)
+            draw.text((884, 648), format(max_b30, ".3f"), (255, 255, 255), SansSerifFLF)
             # 10. draw character
             char_name = str(character_id)
             if is_character_uncapped:
@@ -298,7 +293,7 @@ class DrawingWorker(threading.Thread):
             draw.text((213, 147), rating, fill=color, font=exo_regular)
             # 8. write potential
             exo_regular = ImageFont.truetype(Exo_Regular_PATH, size=37)
-            draw.text((262, 128), '> ' + str(round(potential, 2)), fill=color, font=exo_regular)
+            draw.text((262, 128), '> ' + format(potential, ".2f"), fill=color, font=exo_regular)
             # 9. write time
             exo_regular = ImageFont.truetype(Exo_Regular_PATH, size=21)
             dt_object = datetime.datetime.fromtimestamp(play_time)
@@ -389,7 +384,7 @@ class DrawingWorker(threading.Thread):
     def rating2str(rating: int):
         decimal = rating % 100
         former = rating // 100
-        return f"{former}.{decimal}"
+        return f"{str(former)}.{str(decimal).zfill(2)}"
 
     @staticmethod
     def write_boarder(draw: ImageDraw.Draw, pos: tuple[int, int], text, fill, font, shadow_color):

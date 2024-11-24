@@ -13,7 +13,7 @@ RATINGS_PATH = os.path.join(SAVE_PATH, 'ratings.json')
 RATINGS_OLD_PATH = os.path.join(SAVE_PATH, 'ratings_old.json')
 
 ASSETS_B30_PATH = os.path.join(ASSETS_PATH, 'b30')
-CHIERI_PATH = os.path.join(ASSETS_B30_PATH, 'cheri')
+CHIERI_PATH = os.path.join(ASSETS_B30_PATH, 'chieri')
 CHIERI_BG_PATH = os.path.join(CHIERI_PATH, 'bg.png')
 CHIERI_MASK_PATH = os.path.join(CHIERI_PATH, 'mask.png')
 CHIERI_TABLE_PATH = os.path.join(CHIERI_PATH, 'table.png')
