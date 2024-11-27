@@ -58,8 +58,8 @@
             "rating": "11.3"
         },
         {
-            "idx": 406,
-            "id": "judgement",
+            "idx": 400,
+            "id": "alterego",
             "title": "ALTER EGO",
             "difficulty": 4,
             "rating": "11.3"
@@ -109,7 +109,7 @@
         {
             "idx": 277,
             "id": "worldender",
-            "title": "\u9b54\u738b",
+            "title": "魔王",
             "difficulty": 3,
             "rating": "11.1"
         },
@@ -123,7 +123,7 @@
         {
             "idx": 149,
             "id": "saikyostronger",
-            "title": "\u6700\u5f37STRONGER",
+            "title": "最強STRONGER",
             "difficulty": 2,
             "rating": "11.0"
         },
@@ -151,7 +151,7 @@
         {
             "idx": 201,
             "id": "gou",
-            "title": "Misdeed -la bont\u00e9 de Dieu et l'origine du mal-",
+            "title": "Misdeed -la bonté de Dieu et l'origine du mal-",
             "difficulty": 2,
             "rating": "10.9"
         },
@@ -159,13 +159,6 @@
             "idx": 307,
             "id": "temptation",
             "title": "TEmPTaTiON",
-            "difficulty": 2,
-            "rating": "10.9"
-        },
-        {
-            "idx": 356,
-            "id": "teravolt",
-            "title": "TeraVolt",
             "difficulty": 2,
             "rating": "10.9"
         },
@@ -179,7 +172,7 @@
         {
             "idx": 412,
             "id": "vulcanus",
-            "title": "Vulc\u0101nus",
+            "title": "Vulcānus",
             "difficulty": 2,
             "rating": "10.9"
         },
@@ -207,7 +200,7 @@
         {
             "idx": 333,
             "id": "ii",
-            "title": " \u035f\u035d\u035e\u2161\u0301\u0315 ",
+            "title": " ͟͝͞Ⅱ́̕ ",
             "difficulty": 2,
             "rating": "10.8"
         },
@@ -228,7 +221,7 @@
         {
             "idx": 226,
             "id": "divinelight",
-            "title": "\u5149\u901f\u795e\u6388\u8aac - Divine Light of Myriad -",
+            "title": "光速神授説 - Divine Light of Myriad -",
             "difficulty": 2,
             "rating": "10.8"
         },
@@ -240,9 +233,23 @@
             "rating": "10.8"
         },
         {
+            "idx": 230,
+            "id": "genocider",
+            "title": "GENOCIDER",
+            "difficulty": 2,
+            "rating": "10.8"
+        },
+        {
             "idx": 361,
             "id": "metamysteria",
             "title": "Meta-Mysteria",
+            "difficulty": 2,
+            "rating": "10.8"
+        },
+        {
+            "idx": 308,
+            "id": "primitivelights",
+            "title": "PRIMITIVE LIGHTS",
             "difficulty": 2,
             "rating": "10.8"
         },
@@ -256,21 +263,42 @@
         {
             "idx": 313,
             "id": "spidersthread",
-            "title": "\u8718\u86db\u306e\u7cf8",
+            "title": "蜘蛛の糸",
+            "difficulty": 2,
+            "rating": "10.8"
+        },
+        {
+            "idx": 266,
+            "id": "stasis",
+            "title": "Stasis",
+            "difficulty": 2,
+            "rating": "10.8"
+        },
+        {
+            "idx": 356,
+            "id": "teravolt",
+            "title": "TeraVolt",
             "difficulty": 2,
             "rating": "10.8"
         },
         {
             "idx": 194,
             "id": "omegafour",
-            "title": "\u03c94",
+            "title": "ω4",
             "difficulty": 2,
             "rating": "10.8"
         },
         {
             "idx": 389,
             "id": "desive",
-            "title": "D\u00e9sive",
+            "title": "Désive",
+            "difficulty": 4,
+            "rating": "10.8"
+        },
+        {
+            "idx": 386,
+            "id": "distortedfate",
+            "title": "Distorted Fate",
             "difficulty": 4,
             "rating": "10.8"
         },
@@ -282,23 +310,9 @@
             "rating": "10.8"
         },
         {
-            "idx": 125,
-            "id": "worldvanquisher",
-            "title": "World Vanquisher",
-            "difficulty": 2,
-            "rating": "10.7"
-        },
-        {
             "idx": 198,
             "id": "amazingmightyyyy",
             "title": "AMAZING MIGHTYYYY!!!!",
-            "difficulty": 2,
-            "rating": "10.7"
-        },
-        {
-            "idx": 55,
-            "id": "axiumcrisis",
-            "title": "Axium Crisis",
             "difficulty": 2,
             "rating": "10.7"
         },
@@ -310,23 +324,16 @@
             "rating": "10.7"
         },
         {
-            "idx": 230,
-            "id": "genocider",
-            "title": "GENOCIDER",
-            "difficulty": 2,
-            "rating": "10.7"
-        },
-        {
-            "idx": 85,
-            "id": "halcyon",
-            "title": "Halcyon",
-            "difficulty": 2,
-            "rating": "10.7"
-        },
-        {
             "idx": 376,
             "id": "kyorenromance",
-            "title": "\u72c2\u604bROMANCE",
+            "title": "狂恋ROMANCE",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 299,
+            "id": "nullapophenia",
+            "title": "NULL APOPHENIA",
             "difficulty": 2,
             "rating": "10.7"
         },
@@ -338,23 +345,9 @@
             "rating": "10.7"
         },
         {
-            "idx": 308,
-            "id": "primitivelights",
-            "title": "PRIMITIVE LIGHTS",
-            "difficulty": 2,
-            "rating": "10.7"
-        },
-        {
             "idx": 220,
             "id": "rekkaresonance",
-            "title": "\u70c8\u83efRESONANCE",
-            "difficulty": 2,
-            "rating": "10.7"
-        },
-        {
-            "idx": 266,
-            "id": "stasis",
-            "title": "Stasis",
+            "title": "烈華RESONANCE",
             "difficulty": 2,
             "rating": "10.7"
         },
@@ -362,6 +355,13 @@
             "idx": 160,
             "id": "tempestissimo",
             "title": "Tempestissimo",
+            "difficulty": 2,
+            "rating": "10.7"
+        },
+        {
+            "idx": 125,
+            "id": "worldvanquisher",
+            "title": "World Vanquisher",
             "difficulty": 2,
             "rating": "10.7"
         },
@@ -387,6 +387,13 @@
             "rating": "10.6"
         },
         {
+            "idx": 55,
+            "id": "axiumcrisis",
+            "title": "Axium Crisis",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
             "idx": 154,
             "id": "corpssansorganes",
             "title": "corps-sans-organes",
@@ -397,13 +404,6 @@
             "idx": 62,
             "id": "cyanine",
             "title": "cyanine",
-            "difficulty": 2,
-            "rating": "10.6"
-        },
-        {
-            "idx": 139,
-            "id": "gloryroad",
-            "title": "GLORY\uff1aROAD",
             "difficulty": 2,
             "rating": "10.6"
         },
@@ -429,13 +429,6 @@
             "rating": "10.6"
         },
         {
-            "idx": 299,
-            "id": "nullapophenia",
-            "title": "NULL APOPHENIA",
-            "difficulty": 2,
-            "rating": "10.6"
-        },
-        {
             "idx": 216,
             "id": "overwhelm",
             "title": "Overwhelm",
@@ -443,23 +436,9 @@
             "rating": "10.6"
         },
         {
-            "idx": 377,
-            "id": "qovat",
-            "title": "Qovat",
-            "difficulty": 2,
-            "rating": "10.6"
-        },
-        {
             "idx": 223,
             "id": "seclusion",
             "title": "Seclusion",
-            "difficulty": 2,
-            "rating": "10.6"
-        },
-        {
-            "idx": 232,
-            "id": "sheriruthrmx",
-            "title": "Sheriruth (Laur Remix)",
             "difficulty": 2,
             "rating": "10.6"
         },
@@ -485,6 +464,55 @@
             "rating": "10.6"
         },
         {
+            "idx": 394,
+            "id": "backtobasics",
+            "title": "Back to Basics",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 288,
+            "id": "goodbyemerry",
+            "title": "Good bye, Merry-Go-Round.",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 52,
+            "id": "trappola",
+            "title": "妖艶魔女 -trappola bewitching-",
+            "difficulty": 3,
+            "rating": "10.6"
+        },
+        {
+            "idx": 306,
+            "id": "infinity",
+            "title": "[X]",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 300,
+            "id": "crimsonthrone",
+            "title": "Crimson Throne",
+            "difficulty": 2,
+            "rating": "10.6"
+        },
+        {
+            "idx": 139,
+            "id": "gloryroad",
+            "title": "GLORY：ROAD",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 232,
+            "id": "sheriruthrmx",
+            "title": "Sheriruth (Laur Remix)",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
             "idx": 374,
             "id": "alephzero",
             "title": "Aleph-0",
@@ -492,8 +520,8 @@
             "rating": "10.5"
         },
         {
-            "idx": 406,
-            "id": "judgement",
+            "idx": 400,
+            "id": "alterego",
             "title": "ALTER EGO",
             "difficulty": 2,
             "rating": "10.5"
@@ -513,13 +541,6 @@
             "rating": "10.5"
         },
         {
-            "idx": 394,
-            "id": "backtobasics",
-            "title": "Back to Basics",
-            "difficulty": 2,
-            "rating": "10.5"
-        },
-        {
             "idx": 360,
             "id": "edenwacca",
             "title": "eden",
@@ -534,16 +555,9 @@
             "rating": "10.5"
         },
         {
-            "idx": 288,
-            "id": "goodbyemerry",
-            "title": "Good bye, Merry-Go-Round.",
-            "difficulty": 2,
-            "rating": "10.5"
-        },
-        {
-            "idx": 200,
-            "id": "lastcelebration",
-            "title": "Last Celebration",
+            "idx": 85,
+            "id": "halcyon",
+            "title": "Halcyon",
             "difficulty": 2,
             "rating": "10.5"
         },
@@ -551,13 +565,6 @@
             "idx": 248,
             "id": "lightningscrew",
             "title": "Lightning Screw",
-            "difficulty": 2,
-            "rating": "10.5"
-        },
-        {
-            "idx": 383,
-            "id": "mirinae",
-            "title": "MIRINAE",
             "difficulty": 2,
             "rating": "10.5"
         },
@@ -572,20 +579,6 @@
             "idx": 421,
             "id": "spiritdauntless",
             "title": "Spirit of the Dauntless",
-            "difficulty": 2,
-            "rating": "10.5"
-        },
-        {
-            "idx": 322,
-            "id": "tothemilkyway",
-            "title": "To the Milky Way",
-            "difficulty": 2,
-            "rating": "10.5"
-        },
-        {
-            "idx": 384,
-            "id": "ultradiaxon",
-            "title": "ultradiaxon-N3",
             "difficulty": 2,
             "rating": "10.5"
         },
@@ -625,23 +618,58 @@
             "rating": "10.5"
         },
         {
-            "idx": 52,
-            "id": "trappola",
-            "title": "\u5996\u8276\u9b54\u5973 -trappola bewitching-",
-            "difficulty": 3,
+            "idx": 298,
+            "id": "chronicle",
+            "title": "Chronicle",
+            "difficulty": 2,
             "rating": "10.5"
         },
         {
-            "idx": 306,
-            "id": "infinity",
-            "title": "[X]",
+            "idx": 206,
+            "id": "gimmedablood",
+            "title": "GIMME DA BLOOD",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 406,
+            "id": "judgement",
+            "title": "Judgement",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 326,
+            "id": "lucidtraveler",
+            "title": "Lucid Traveler",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 339,
+            "id": "riseoftheworld",
+            "title": "Rise of the World",
+            "difficulty": 2,
+            "rating": "10.5"
+        },
+        {
+            "idx": 377,
+            "id": "qovat",
+            "title": "Qovat",
             "difficulty": 2,
             "rating": "10.4"
         },
         {
-            "idx": 298,
-            "id": "chronicle",
-            "title": "Chronicle",
+            "idx": 383,
+            "id": "mirinae",
+            "title": "MIRINAE",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 322,
+            "id": "tothemilkyway",
+            "title": "To the Milky Way",
             "difficulty": 2,
             "rating": "10.4"
         },
@@ -649,13 +677,6 @@
             "idx": 199,
             "id": "climax",
             "title": "Climax",
-            "difficulty": 2,
-            "rating": "10.4"
-        },
-        {
-            "idx": 300,
-            "id": "crimsonthrone",
-            "title": "Crimson Throne",
             "difficulty": 2,
             "rating": "10.4"
         },
@@ -674,30 +695,16 @@
             "rating": "10.4"
         },
         {
-            "idx": 206,
-            "id": "gimmedablood",
-            "title": "GIMME DA BLOOD",
-            "difficulty": 2,
-            "rating": "10.4"
-        },
-        {
-            "idx": 124,
-            "id": "ikazuchi",
-            "title": "\u6012\u69cc",
-            "difficulty": 2,
-            "rating": "10.4"
-        },
-        {
-            "idx": 405,
-            "id": "ashenboundary",
-            "title": "Judgement",
-            "difficulty": 2,
-            "rating": "10.4"
-        },
-        {
             "idx": 259,
             "id": "kissinglucifer",
             "title": "Kissing Lucifer",
+            "difficulty": 2,
+            "rating": "10.4"
+        },
+        {
+            "idx": 200,
+            "id": "lastcelebration",
+            "title": "Last Celebration",
             "difficulty": 2,
             "rating": "10.4"
         },
@@ -709,9 +716,9 @@
             "rating": "10.4"
         },
         {
-            "idx": 326,
-            "id": "lucidtraveler",
-            "title": "Lucid Traveler",
+            "idx": 278,
+            "id": "pentiment",
+            "title": "Pentiment",
             "difficulty": 2,
             "rating": "10.4"
         },
@@ -723,30 +730,9 @@
             "rating": "10.4"
         },
         {
-            "idx": 339,
-            "id": "riseoftheworld",
-            "title": "Rise of the World",
-            "difficulty": 2,
-            "rating": "10.4"
-        },
-        {
-            "idx": 100,
-            "id": "tiferet",
-            "title": "Tiferet",
-            "difficulty": 2,
-            "rating": "10.4"
-        },
-        {
-            "idx": 135,
-            "id": "valhallazero",
-            "title": "Valhalla:0",
-            "difficulty": 2,
-            "rating": "10.4"
-        },
-        {
             "idx": 76,
             "id": "guardina",
-            "title": "\u03b3uar\u03b4ina",
+            "title": "γuarδina",
             "difficulty": 2,
             "rating": "10.4"
         },
@@ -760,7 +746,7 @@
         {
             "idx": 391,
             "id": "tasogare",
-            "title": "\u9ec4\u660f\u306e\u5354\u594f\u66f2",
+            "title": "黄昏の協奏曲",
             "difficulty": 4,
             "rating": "10.4"
         },
@@ -779,6 +765,27 @@
             "rating": "10.4"
         },
         {
+            "idx": 384,
+            "id": "ultradiaxon",
+            "title": "ultradiaxon-N3",
+            "difficulty": 2,
+            "rating": "10.3"
+        },
+        {
+            "idx": 124,
+            "id": "ikazuchi",
+            "title": "怒槌",
+            "difficulty": 2,
+            "rating": "10.3"
+        },
+        {
+            "idx": 100,
+            "id": "tiferet",
+            "title": "Tiferet",
+            "difficulty": 2,
+            "rating": "10.3"
+        },
+        {
             "idx": 332,
             "id": "nnglooms",
             "title": "99 Glooms",
@@ -795,7 +802,7 @@
         {
             "idx": 302,
             "id": "hiirogekka",
-            "title": "\u7dcb\u8272\u6708\u4e0b\u3001\u72c2\u54b2\u30ce\u7d76 (nayuta 2017 ver.)",
+            "title": "緋色月下、狂咲ノ絶 (nayuta 2017 ver.)",
             "difficulty": 2,
             "rating": "10.3"
         },
@@ -814,23 +821,9 @@
             "rating": "10.3"
         },
         {
-            "idx": 26,
-            "id": "nirvluce",
-            "title": "Nirv lucE",
-            "difficulty": 2,
-            "rating": "10.3"
-        },
-        {
-            "idx": 278,
-            "id": "pentiment",
-            "title": "Pentiment",
-            "difficulty": 2,
-            "rating": "10.3"
-        },
-        {
             "idx": 190,
             "id": "toaliceliddell",
-            "title": "\u30a2\u30ea\u30b9\u30fb\u30ea\u30c7\u30eb\u306b\u6367\u3050",
+            "title": "アリス・リデルに捧ぐ",
             "difficulty": 2,
             "rating": "10.3"
         },
@@ -849,6 +842,34 @@
             "rating": "10.3"
         },
         {
+            "idx": 108,
+            "id": "omakeno",
+            "title": "OMAKENO Stroke",
+            "difficulty": 3,
+            "rating": "10.3"
+        },
+        {
+            "idx": 23,
+            "id": "partyvinyl",
+            "title": "Party Vinyl",
+            "difficulty": 3,
+            "rating": "10.3"
+        },
+        {
+            "idx": 135,
+            "id": "valhallazero",
+            "title": "Valhalla:0",
+            "difficulty": 2,
+            "rating": "10.2"
+        },
+        {
+            "idx": 26,
+            "id": "nirvluce",
+            "title": "Nirv lucE",
+            "difficulty": 2,
+            "rating": "10.2"
+        },
+        {
             "idx": 292,
             "id": "capella",
             "title": "Capella",
@@ -863,16 +884,9 @@
             "rating": "10.2"
         },
         {
-            "idx": 236,
-            "id": "gengaozo",
-            "title": "G e n g a o z o",
-            "difficulty": 2,
-            "rating": "10.2"
-        },
-        {
             "idx": 212,
             "id": "loschen",
-            "title": "L\u00f6schen",
+            "title": "Löschen",
             "difficulty": 2,
             "rating": "10.2"
         },
@@ -887,13 +901,6 @@
             "idx": 174,
             "id": "maliciousmischance",
             "title": "Malicious Mischance",
-            "difficulty": 2,
-            "rating": "10.2"
-        },
-        {
-            "idx": 252,
-            "id": "medusa",
-            "title": "Medusa",
             "difficulty": 2,
             "rating": "10.2"
         },
@@ -914,15 +921,8 @@
         {
             "idx": 38,
             "id": "aterlbus",
-            "title": "\u03b1terl\u03b2us",
+            "title": "αterlβus",
             "difficulty": 2,
-            "rating": "10.2"
-        },
-        {
-            "idx": 108,
-            "id": "omakeno",
-            "title": "OMAKENO Stroke",
-            "difficulty": 3,
             "rating": "10.2"
         },
         {
@@ -937,26 +937,40 @@
             "id": "logos",
             "title": "Logos",
             "difficulty": 2,
+            "rating": "10.2"
+        },
+        {
+            "idx": 238,
+            "id": "lastendconductor",
+            "title": "lastendconductor",
+            "difficulty": 3,
+            "rating": "10.2"
+        },
+        {
+            "idx": 58,
+            "id": "redandblue",
+            "title": "Red and Blue and Green",
+            "difficulty": 3,
+            "rating": "10.2"
+        },
+        {
+            "idx": 252,
+            "id": "medusa",
+            "title": "Medusa",
+            "difficulty": 2,
+            "rating": "10.1"
+        },
+        {
+            "idx": 236,
+            "id": "gengaozo",
+            "title": "G e n g a o z o",
+            "difficulty": 2,
             "rating": "10.1"
         },
         {
             "idx": 16,
             "id": "pragmatism",
             "title": "PRAGMATISM",
-            "difficulty": 2,
-            "rating": "10.1"
-        },
-        {
-            "idx": 109,
-            "id": "scarletlance",
-            "title": "Scarlet Lance",
-            "difficulty": 2,
-            "rating": "10.1"
-        },
-        {
-            "idx": 17,
-            "id": "sheriruth",
-            "title": "Sheriruth",
             "difficulty": 2,
             "rating": "10.1"
         },
@@ -970,23 +984,30 @@
         {
             "idx": 417,
             "id": "gensounosatellite",
-            "title": "\u5e7b\u60f3\u306e\u30b5\u30c6\u30e9\u30a4\u30c8",
+            "title": "幻想のサテライト",
             "difficulty": 4,
             "rating": "10.1"
         },
         {
-            "idx": 238,
-            "id": "lastendconductor",
-            "title": "lastendconductor",
-            "difficulty": 3,
+            "idx": 364,
+            "id": "overdrive",
+            "title": "Kanbu de Tomatte Sugu Tokeru",
+            "difficulty": 2,
             "rating": "10.1"
         },
         {
-            "idx": 23,
-            "id": "partyvinyl",
-            "title": "Party Vinyl",
-            "difficulty": 3,
-            "rating": "10.1"
+            "idx": 109,
+            "id": "scarletlance",
+            "title": "Scarlet Lance",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 17,
+            "id": "sheriruth",
+            "title": "Sheriruth",
+            "difficulty": 2,
+            "rating": "10.0"
         },
         {
             "idx": 101,
@@ -998,7 +1019,7 @@
         {
             "idx": 205,
             "id": "take",
-            "title": "\u7af9",
+            "title": "竹",
             "difficulty": 2,
             "rating": "10.0"
         },
@@ -1024,13 +1045,6 @@
             "rating": "10.0"
         },
         {
-            "idx": 364,
-            "id": "overdrive",
-            "title": "Kanbu de Tomatte Sugu Tokeru",
-            "difficulty": 2,
-            "rating": "10.0"
-        },
-        {
             "idx": 375,
             "id": "masqueradelegion",
             "title": "Masquerade Legion",
@@ -1038,30 +1052,9 @@
             "rating": "10.0"
         },
         {
-            "idx": 136,
-            "id": "mirzam",
-            "title": "Mirzam",
-            "difficulty": 2,
-            "rating": "10.0"
-        },
-        {
-            "idx": 50,
-            "id": "modelista",
-            "title": "Modelista",
-            "difficulty": 2,
-            "rating": "10.0"
-        },
-        {
             "idx": 197,
             "id": "oshamascramble",
             "title": "Oshama Scramble!",
-            "difficulty": 2,
-            "rating": "10.0"
-        },
-        {
-            "idx": 52,
-            "id": "trappola",
-            "title": "\u5996\u8276\u9b54\u5973 -trappola bewitching-",
             "difficulty": 2,
             "rating": "10.0"
         },
@@ -1101,11 +1094,39 @@
             "rating": "10.0"
         },
         {
-            "idx": 58,
-            "id": "redandblue",
-            "title": "Red and Blue and Green",
+            "idx": 277,
+            "id": "worldender",
+            "title": "魔王",
+            "difficulty": 2,
+            "rating": "10.0"
+        },
+        {
+            "idx": 146,
+            "id": "laqryma",
+            "title": "La'qryma of the Wasteland",
             "difficulty": 3,
             "rating": "10.0"
+        },
+        {
+            "idx": 136,
+            "id": "mirzam",
+            "title": "Mirzam",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 50,
+            "id": "modelista",
+            "title": "Modelista",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 52,
+            "id": "trappola",
+            "title": "妖艶魔女 -trappola bewitching-",
+            "difficulty": 2,
+            "rating": "9.9"
         },
         {
             "idx": 196,
@@ -1117,7 +1138,7 @@
         {
             "idx": 346,
             "id": "amekagura",
-            "title": "\u96e8\u795e\u697d",
+            "title": "雨神楽",
             "difficulty": 2,
             "rating": "9.9"
         },
@@ -1136,8 +1157,8 @@
             "rating": "9.9"
         },
         {
-            "idx": 404,
-            "id": "hypnotize",
+            "idx": 405,
+            "id": "ashenboundary",
             "title": "Ashen 6oundary",
             "difficulty": 2,
             "rating": "9.9"
@@ -1146,13 +1167,6 @@
             "idx": 297,
             "id": "astrawalkthrough",
             "title": "Astra walkthrough",
-            "difficulty": 2,
-            "rating": "9.9"
-        },
-        {
-            "idx": 380,
-            "id": "awakeninruins",
-            "title": "Awaken In Ruins",
             "difficulty": 2,
             "rating": "9.9"
         },
@@ -1173,14 +1187,7 @@
         {
             "idx": 389,
             "id": "desive",
-            "title": "D\u00e9sive",
-            "difficulty": 2,
-            "rating": "9.9"
-        },
-        {
-            "idx": 46,
-            "id": "genesis",
-            "title": "Genesis",
+            "title": "Désive",
             "difficulty": 2,
             "rating": "9.9"
         },
@@ -1213,13 +1220,6 @@
             "rating": "9.9"
         },
         {
-            "idx": 355,
-            "id": "namelesspassion",
-            "title": "Nameless Passion",
-            "difficulty": 2,
-            "rating": "9.9"
-        },
-        {
             "idx": 317,
             "id": "newyorkbackraise",
             "title": "New York Back Raise",
@@ -1234,16 +1234,9 @@
             "rating": "9.9"
         },
         {
-            "idx": 51,
-            "id": "soundwitch",
-            "title": "SOUNDWiTCH",
-            "difficulty": 2,
-            "rating": "9.9"
-        },
-        {
             "idx": 243,
             "id": "summerfireworks",
-            "title": "\u5f69\u308b\u590f\u306e\u604b\u82b1\u706b",
+            "title": "彩る夏の恋花火",
             "difficulty": 2,
             "rating": "9.9"
         },
@@ -1262,15 +1255,8 @@
             "rating": "9.9"
         },
         {
-            "idx": 277,
-            "id": "worldender",
-            "title": "\u9b54\u738b",
-            "difficulty": 2,
-            "rating": "9.9"
-        },
-        {
-            "idx": 403,
-            "id": "invain",
+            "idx": 404,
+            "id": "hypnotize",
             "title": "Hypnotize",
             "difficulty": 4,
             "rating": "9.9"
@@ -1290,11 +1276,53 @@
             "rating": "9.9"
         },
         {
-            "idx": 146,
-            "id": "laqryma",
-            "title": "La'qryma of the Wasteland",
-            "difficulty": 3,
+            "idx": 401,
+            "id": "distortionhuman",
+            "title": "ディストーション・ニンゲン",
+            "difficulty": 2,
             "rating": "9.9"
+        },
+        {
+            "idx": 177,
+            "id": "galaxyfriends",
+            "title": "Galaxy Friends",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 392,
+            "id": "oldschoolsalvage",
+            "title": "Old School Salvage",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 329,
+            "id": "ultimatetaste",
+            "title": "Ultimate taste",
+            "difficulty": 2,
+            "rating": "9.9"
+        },
+        {
+            "idx": 46,
+            "id": "genesis",
+            "title": "Genesis",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 355,
+            "id": "namelesspassion",
+            "title": "Nameless Passion",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 51,
+            "id": "soundwitch",
+            "title": "SOUNDWiTCH",
+            "difficulty": 2,
+            "rating": "9.8"
         },
         {
             "idx": 286,
@@ -1339,20 +1367,6 @@
             "rating": "9.8"
         },
         {
-            "idx": 400,
-            "id": "alterego",
-            "title": "\u30c7\u30a3\u30b9\u30c8\u30fc\u30b7\u30e7\u30f3\u30fb\u30cb\u30f3\u30b2\u30f3",
-            "difficulty": 2,
-            "rating": "9.8"
-        },
-        {
-            "idx": 107,
-            "id": "dxfullmetal",
-            "title": "DX\u8d85\u6027\u80fd\u30d5\u30eb\u30e1\u30bf\u30eb\u5c11\u5973",
-            "difficulty": 2,
-            "rating": "9.8"
-        },
-        {
             "idx": 147,
             "id": "einherjar",
             "title": "Einherjar Joker",
@@ -1374,13 +1388,6 @@
             "rating": "9.8"
         },
         {
-            "idx": 177,
-            "id": "galaxyfriends",
-            "title": "Galaxy Friends",
-            "difficulty": 2,
-            "rating": "9.8"
-        },
-        {
             "idx": 175,
             "id": "gothiveofra",
             "title": "Got hive of Ra",
@@ -1390,7 +1397,7 @@
         {
             "idx": 251,
             "id": "akinokagerou",
-            "title": "\u79cb\u306e\u967d\u708e",
+            "title": "秋の陽炎",
             "difficulty": 2,
             "rating": "9.8"
         },
@@ -1404,7 +1411,7 @@
         {
             "idx": 321,
             "id": "hybris",
-            "title": "\u30d2\u30e5\u30d6\u30ea\u30b9\u306e\u9802\u306b\u8073\u3048\u308b\u306e\u306f",
+            "title": "ヒュブリスの頂に聳えるのは",
             "difficulty": 2,
             "rating": "9.8"
         },
@@ -1425,14 +1432,14 @@
         {
             "idx": 342,
             "id": "matenrou",
-            "title": "\u611f\u60c5\u306e\u6469\u5929\u697c \uff5eArr.Demetori",
+            "title": "感情の摩天楼 ～Arr.Demetori",
             "difficulty": 2,
             "rating": "9.8"
         },
         {
             "idx": 367,
             "id": "lightmyway",
-            "title": "LIVHT MY W\u0394Y",
+            "title": "LIVHT MY WΔY",
             "difficulty": 2,
             "rating": "9.8"
         },
@@ -1465,16 +1472,9 @@
             "rating": "9.8"
         },
         {
-            "idx": 392,
-            "id": "oldschoolsalvage",
-            "title": "Old School Salvage",
-            "difficulty": 2,
-            "rating": "9.9"
-        },
-        {
             "idx": 358,
             "id": "ouverture",
-            "title": "Ouvert\u00fcre",
+            "title": "Ouvertüre",
             "difficulty": 2,
             "rating": "9.8"
         },
@@ -1493,8 +1493,8 @@
             "rating": "9.8"
         },
         {
-            "idx": 401,
-            "id": "distortionhuman",
+            "idx": 402,
+            "id": "shrink",
             "title": "shrink",
             "difficulty": 2,
             "rating": "9.8"
@@ -1516,7 +1516,7 @@
         {
             "idx": 343,
             "id": "tothefurthestdream",
-            "title": "\u5f7c\u65b9\u306e\u5922\u3078\u3068",
+            "title": "彼方の夢へと",
             "difficulty": 2,
             "rating": "9.8"
         },
@@ -1579,7 +1579,7 @@
         {
             "idx": 33,
             "id": "kanagawa",
-            "title": "\u795e\u5948\u5ddd\u96fb\u8133\u6697\u6e20",
+            "title": "神奈川電脳暗渠",
             "difficulty": 3,
             "rating": "9.8"
         },
@@ -1595,12 +1595,47 @@
             "id": "temptationgc",
             "title": "10pt8ion",
             "difficulty": 2,
-            "rating": "9.7"
+            "rating": "9.8"
         },
         {
             "idx": 162,
             "id": "altale",
             "title": "Altale",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 227,
+            "id": "mazymetroplex",
+            "title": "Mazy Metroplex",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 336,
+            "id": "rgb",
+            "title": "RGB",
+            "difficulty": 2,
+            "rating": "9.8"
+        },
+        {
+            "idx": 15,
+            "id": "qualia",
+            "title": "qualia -ideaesthesia-",
+            "difficulty": 3,
+            "rating": "9.8"
+        },
+        {
+            "idx": 380,
+            "id": "awakeninruins",
+            "title": "Awaken In Ruins",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 107,
+            "id": "dxfullmetal",
+            "title": "DX超性能フルメタル少女",
             "difficulty": 2,
             "rating": "9.7"
         },
@@ -1698,7 +1733,7 @@
         {
             "idx": 368,
             "id": "hotarubinoyuki",
-            "title": "\u86cd\u706b\u306e\u96ea",
+            "title": "蛍火の雪",
             "difficulty": 2,
             "rating": "9.7"
         },
@@ -1731,13 +1766,6 @@
             "rating": "9.7"
         },
         {
-            "idx": 227,
-            "id": "mazymetroplex",
-            "title": "Mazy Metroplex",
-            "difficulty": 2,
-            "rating": "9.7"
-        },
-        {
             "idx": 140,
             "id": "monochromeprincess",
             "title": "Monochrome Princess",
@@ -1747,14 +1775,7 @@
         {
             "idx": 247,
             "id": "neokosmo",
-            "title": "n\u03ad\u03bf \u03ba\u03ccsmo",
-            "difficulty": 2,
-            "rating": "9.7"
-        },
-        {
-            "idx": 336,
-            "id": "rgb",
-            "title": "RGB",
+            "title": "nέο κόsmo",
             "difficulty": 2,
             "rating": "9.7"
         },
@@ -1787,13 +1808,6 @@
             "rating": "9.7"
         },
         {
-            "idx": 329,
-            "id": "ultimatetaste",
-            "title": "Ultimate taste",
-            "difficulty": 2,
-            "rating": "9.7"
-        },
-        {
             "idx": 217,
             "id": "vandalism",
             "title": "Vandalism",
@@ -1803,7 +1817,7 @@
         {
             "idx": 269,
             "id": "mu",
-            "title": "\u03bc",
+            "title": "μ",
             "difficulty": 2,
             "rating": "9.7"
         },
@@ -1843,13 +1857,6 @@
             "rating": "9.7"
         },
         {
-            "idx": 15,
-            "id": "qualia",
-            "title": "qualia -ideaesthesia-",
-            "difficulty": 3,
-            "rating": "9.7"
-        },
-        {
             "idx": 171,
             "id": "teriqma",
             "title": "Teriqma",
@@ -1857,16 +1864,30 @@
             "rating": "9.7"
         },
         {
+            "idx": 92,
+            "id": "fallensquare",
+            "title": "Fallensquare",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
+            "idx": 281,
+            "id": "lovelessdress",
+            "title": "Loveless Dress",
+            "difficulty": 2,
+            "rating": "9.7"
+        },
+        {
             "idx": 133,
             "id": "melodyoflove",
-            "title": "\u8ff7\u3048\u308b\u97f3\u8272\u306f\u604b\u306e\u5504",
+            "title": "迷える音色は恋の唄",
             "difficulty": 2,
             "rating": "9.6"
         },
         {
             "idx": 362,
             "id": "aloneandlorn",
-            "title": "\u30a2\u30ed\u30fc\u30f3\u30a2\u30f3\u30c9\u30ed\u30fc\u30f3",
+            "title": "アローンアンドローン",
             "difficulty": 2,
             "rating": "9.6"
         },
@@ -1906,13 +1927,6 @@
             "rating": "9.6"
         },
         {
-            "idx": 92,
-            "id": "fallensquare",
-            "title": "Fallensquare",
-            "difficulty": 2,
-            "rating": "9.6"
-        },
-        {
             "idx": 310,
             "id": "impact",
             "title": "IMPACT",
@@ -1927,16 +1941,9 @@
             "rating": "9.6"
         },
         {
-            "idx": 281,
-            "id": "lovelessdress",
-            "title": "Loveless Dress",
-            "difficulty": 2,
-            "rating": "9.6"
-        },
-        {
             "idx": 94,
             "id": "espebranch",
-            "title": "\u767d\u9053\u3001\u591a\u5e0c\u671b\u7f8a\u3068\u4fe1\u3058\u3042\u308a\u304f\u3002",
+            "title": "白道、多希望羊と信じありく。",
             "difficulty": 2,
             "rating": "9.6"
         },
@@ -2004,6 +2011,34 @@
             "rating": "9.6"
         },
         {
+            "idx": 344,
+            "id": "remindthesouls",
+            "title": "Remind the Souls (Short Version)",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
+            "idx": 113,
+            "id": "antithese",
+            "title": "Antithese",
+            "difficulty": 3,
+            "rating": "9.6"
+        },
+        {
+            "idx": 352,
+            "id": "arghena",
+            "title": "Arghena",
+            "difficulty": 1,
+            "rating": "9.6"
+        },
+        {
+            "idx": 285,
+            "id": "kokoro",
+            "title": "心",
+            "difficulty": 2,
+            "rating": "9.6"
+        },
+        {
             "idx": 91,
             "id": "dropdead",
             "title": "dropdead",
@@ -2046,23 +2081,16 @@
             "rating": "9.5"
         },
         {
-            "idx": 331,
-            "id": "drg",
-            "title": "DRG",
-            "difficulty": 2,
-            "rating": "9.5"
-        },
-        {
             "idx": 345,
             "id": "dynitikos",
-            "title": "Dynitik\u00f3s",
+            "title": "Dynitikós",
             "difficulty": 2,
             "rating": "9.5"
         },
         {
             "idx": 233,
             "id": "eveninginscarlet",
-            "title": "\u7dcb\u7e8f\u3044\u306e\u5bb5",
+            "title": "緋纏いの宵",
             "difficulty": 2,
             "rating": "9.5"
         },
@@ -2083,13 +2111,13 @@
         {
             "idx": 90,
             "id": "darakunosono",
-            "title": "\u5815\u697d\u306e\u5712",
+            "title": "堕楽の園",
             "difficulty": 2,
             "rating": "9.5"
         },
         {
-            "idx": 402,
-            "id": "shrink",
+            "idx": 403,
+            "id": "invain",
             "title": "In Vain",
             "difficulty": 2,
             "rating": "9.5"
@@ -2137,20 +2165,6 @@
             "rating": "9.5"
         },
         {
-            "idx": 344,
-            "id": "remindthesouls",
-            "title": "Remind the Souls (Short Version)",
-            "difficulty": 2,
-            "rating": "9.5"
-        },
-        {
-            "idx": 65,
-            "id": "specta",
-            "title": "Specta",
-            "difficulty": 2,
-            "rating": "9.5"
-        },
-        {
             "idx": 97,
             "id": "stager",
             "title": "STAGER (ALL STAGE CLEAR)",
@@ -2167,21 +2181,21 @@
         {
             "idx": 391,
             "id": "tasogare",
-            "title": "\u9ec4\u660f\u306e\u5354\u594f\u66f2",
+            "title": "黄昏の協奏曲",
             "difficulty": 2,
             "rating": "9.5"
         },
         {
             "idx": 215,
             "id": "odysseia",
-            "title": "\u039f\u0394\u03a5\u03a3\u03a3\u0395\u0399\u0391",
+            "title": "ΟΔΥΣΣΕΙΑ",
             "difficulty": 2,
             "rating": "9.5"
         },
         {
             "idx": 379,
             "id": "ichirin",
-            "title": "\u3007\u3001",
+            "title": "〇、",
             "difficulty": 2,
             "rating": "9.5"
         },
@@ -2190,13 +2204,6 @@
             "id": "jingle",
             "title": "Jingle",
             "difficulty": 4,
-            "rating": "9.5"
-        },
-        {
-            "idx": 113,
-            "id": "antithese",
-            "title": "Antithese",
-            "difficulty": 3,
             "rating": "9.5"
         },
         {
@@ -2214,16 +2221,23 @@
             "rating": "9.5"
         },
         {
-            "idx": 352,
-            "id": "arghena",
-            "title": "Arghena",
-            "difficulty": 1,
+            "idx": 331,
+            "id": "drg",
+            "title": "DRG",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 65,
+            "id": "specta",
+            "title": "Specta",
+            "difficulty": 2,
             "rating": "9.4"
         },
         {
             "idx": 149,
             "id": "saikyostronger",
-            "title": "\u6700\u5f37STRONGER",
+            "title": "最強STRONGER",
             "difficulty": 1,
             "rating": "9.4"
         },
@@ -2251,14 +2265,14 @@
         {
             "idx": 178,
             "id": "crossover",
-            "title": "CROSS\u2020OVER",
+            "title": "CROSS†OVER",
             "difficulty": 2,
             "rating": "9.4"
         },
         {
             "idx": 30,
             "id": "crosssoul",
-            "title": "CROSS\u2020SOUL",
+            "title": "CROSS†SOUL",
             "difficulty": 2,
             "rating": "9.4"
         },
@@ -2307,7 +2321,7 @@
         {
             "idx": 40,
             "id": "impurebird",
-            "title": "\u4e0d\u6d44\u306a\u767d\u3044\u9ce5",
+            "title": "不浄な白い鳥",
             "difficulty": 2,
             "rating": "9.4"
         },
@@ -2342,7 +2356,7 @@
         {
             "idx": 338,
             "id": "ravenspride",
-            "title": "\u30ec\u30a4\u30f4\u30f3\u30ba\u30fb\u30d7\u30e9\u30a4\u30c9",
+            "title": "レイヴンズ・プライド",
             "difficulty": 2,
             "rating": "9.4"
         },
@@ -2370,7 +2384,7 @@
         {
             "idx": 120,
             "id": "vector",
-            "title": "VECTO\u042f",
+            "title": "VECTOЯ",
             "difficulty": 2,
             "rating": "9.4"
         },
@@ -2384,7 +2398,7 @@
         {
             "idx": 61,
             "id": "yozakurafubuki",
-            "title": "\u591c\u685c\u5439\u96ea",
+            "title": "夜桜吹雪",
             "difficulty": 2,
             "rating": "9.4"
         },
@@ -2398,7 +2412,7 @@
         {
             "idx": 416,
             "id": "furetemitai",
-            "title": "\u30d5\u30ec\u30c6\u30df\u30bf\u30a4",
+            "title": "フレテミタイ",
             "difficulty": 4,
             "rating": "9.4"
         },
@@ -2421,6 +2435,34 @@
             "id": "merlin",
             "title": "MERLIN",
             "difficulty": 3,
+            "rating": "9.4"
+        },
+        {
+            "idx": 295,
+            "id": "mantis",
+            "title": "MANTIS (Arcaea Ultra-Bloodrush VIP)",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 267,
+            "id": "picopicotranslation",
+            "title": "ピコPico*とらんすれーしょんっ！",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 255,
+            "id": "sakurafubuki",
+            "title": "Sakura Fubuki",
+            "difficulty": 2,
+            "rating": "9.4"
+        },
+        {
+            "idx": 272,
+            "id": "mukishitsu",
+            "title": "無機質世界に彩を",
+            "difficulty": 2,
             "rating": "9.4"
         },
         {
@@ -2461,7 +2503,7 @@
         {
             "idx": 221,
             "id": "kyogenkigo",
-            "title": "\u72c2\u8a00\u7dba\u8a9e",
+            "title": "狂言綺語",
             "difficulty": 2,
             "rating": "9.3"
         },
@@ -2494,13 +2536,6 @@
             "rating": "9.3"
         },
         {
-            "idx": 285,
-            "id": "kokoro",
-            "title": "\u5fc3",
-            "difficulty": 2,
-            "rating": "9.3"
-        },
-        {
             "idx": 41,
             "id": "ignotus",
             "title": "Ignotus",
@@ -2515,30 +2550,9 @@
             "rating": "9.3"
         },
         {
-            "idx": 295,
-            "id": "mantis",
-            "title": "MANTIS (Arcaea Ultra-Bloodrush VIP)",
-            "difficulty": 2,
-            "rating": "9.3"
-        },
-        {
             "idx": 37,
             "id": "oracle",
             "title": "Oracle",
-            "difficulty": 2,
-            "rating": "9.3"
-        },
-        {
-            "idx": 267,
-            "id": "picopicotranslation",
-            "title": "\u30d4\u30b3Pico*\u3068\u3089\u3093\u3059\u308c\u30fc\u3057\u3087\u3093\u3063\uff01",
-            "difficulty": 2,
-            "rating": "9.3"
-        },
-        {
-            "idx": 255,
-            "id": "sakurafubuki",
-            "title": "Sakura Fubuki",
             "difficulty": 2,
             "rating": "9.3"
         },
@@ -2564,6 +2578,13 @@
             "rating": "9.3"
         },
         {
+            "idx": 224,
+            "id": "smallcloud",
+            "title": "Small Cloud Sugar Candy",
+            "difficulty": 2,
+            "rating": "9.3"
+        },
+        {
             "idx": 159,
             "id": "ifi",
             "title": "#1f1e33",
@@ -2571,8 +2592,8 @@
             "rating": "9.2"
         },
         {
-            "idx": 406,
-            "id": "judgement",
+            "idx": 400,
+            "id": "alterego",
             "title": "ALTER EGO",
             "difficulty": 1,
             "rating": "9.2"
@@ -2580,14 +2601,14 @@
         {
             "idx": 183,
             "id": "alicealamode",
-            "title": "Alice \u00e0 la mode",
+            "title": "Alice à la mode",
             "difficulty": 2,
             "rating": "9.2"
         },
         {
             "idx": 21,
             "id": "anokumene",
-            "title": "An\u00f6kumene",
+            "title": "Anökumene",
             "difficulty": 2,
             "rating": "9.2"
         },
@@ -2601,7 +2622,7 @@
         {
             "idx": 268,
             "id": "nekonote",
-            "title": "\u30cd\u30b3\u30ce\u30c6\u30fb\u30ab\u30ea\u30bf\u30ac\u30fc\u30eb",
+            "title": "ネコノテ・カリタガール",
             "difficulty": 2,
             "rating": "9.2"
         },
@@ -2630,13 +2651,6 @@
             "idx": 104,
             "id": "phantasia",
             "title": "Phantasia",
-            "difficulty": 2,
-            "rating": "9.2"
-        },
-        {
-            "idx": 272,
-            "id": "mukishitsu",
-            "title": "\u7121\u6a5f\u8cea\u4e16\u754c\u306b\u5f69\u3092",
             "difficulty": 2,
             "rating": "9.2"
         },
@@ -2739,16 +2753,9 @@
             "rating": "9.1"
         },
         {
-            "idx": 224,
-            "id": "smallcloud",
-            "title": "Small Cloud Sugar Candy",
-            "difficulty": 2,
-            "rating": "9.1"
-        },
-        {
             "idx": 418,
             "id": "prayer",
-            "title": "\u30d7\u30ec\u30e4",
+            "title": "プレヤ",
             "difficulty": 4,
             "rating": "9.1"
         },
@@ -2757,19 +2764,33 @@
             "id": "coastalhighway",
             "title": "Coastal Highway",
             "difficulty": 2,
-            "rating": "9.0"
+            "rating": "9.1"
         },
         {
             "idx": 105,
             "id": "empireofwinter",
             "title": "Empire of Winter",
             "difficulty": 2,
-            "rating": "9.0"
+            "rating": "9.1"
+        },
+        {
+            "idx": 118,
+            "id": "revixy",
+            "title": "ReviXy",
+            "difficulty": 2,
+            "rating": "9.1"
+        },
+        {
+            "idx": 12,
+            "id": "shadesoflight",
+            "title": "Shades of Light in a Transcendent Realm",
+            "difficulty": 3,
+            "rating": "9.1"
         },
         {
             "idx": 25,
             "id": "flyburg",
-            "title": "\u30d5\u30e9\u30a4\u30d6\u30eb\u30af\u3068\u30a8\u30f3\u30c9\u30ed\u30a6\u30eb",
+            "title": "フライブルクとエンドロウル",
             "difficulty": 2,
             "rating": "9.0"
         },
@@ -2790,7 +2811,7 @@
         {
             "idx": 33,
             "id": "kanagawa",
-            "title": "\u795e\u5948\u5ddd\u96fb\u8133\u6697\u6e20",
+            "title": "神奈川電脳暗渠",
             "difficulty": 2,
             "rating": "9.0"
         },
@@ -2804,7 +2825,7 @@
         {
             "idx": 319,
             "id": "lawlesspoint",
-            "title": "\u7121\u6cd5\u5730\u70b9",
+            "title": "無法地点",
             "difficulty": 2,
             "rating": "9.0"
         },
@@ -2816,24 +2837,10 @@
             "rating": "9.0"
         },
         {
-            "idx": 118,
-            "id": "revixy",
-            "title": "ReviXy",
-            "difficulty": 2,
-            "rating": "9.0"
-        },
-        {
             "idx": 218,
             "id": "turbocharger",
             "title": "Turbocharger",
             "difficulty": 2,
-            "rating": "9.0"
-        },
-        {
-            "idx": 12,
-            "id": "shadesoflight",
-            "title": "Shades of Light in a Transcendent Realm",
-            "difficulty": 3,
             "rating": "9.0"
         },
         {
@@ -2881,7 +2888,7 @@
         {
             "idx": 220,
             "id": "rekkaresonance",
-            "title": "\u70c8\u83efRESONANCE",
+            "title": "烈華RESONANCE",
             "difficulty": 1,
             "rating": "8.9"
         },
@@ -2942,8 +2949,8 @@
             "rating": "8.9"
         },
         {
-            "idx": 403,
-            "id": "invain",
+            "idx": 404,
+            "id": "hypnotize",
             "title": "Hypnotize",
             "difficulty": 2,
             "rating": "8.9"
@@ -2958,7 +2965,7 @@
         {
             "idx": 82,
             "id": "mazenine",
-            "title": "\u4e5d\u756a\u76ee\u306e\u8ff7\u8def",
+            "title": "九番目の迷路",
             "difficulty": 2,
             "rating": "8.9"
         },
@@ -3021,7 +3028,7 @@
         {
             "idx": 309,
             "id": "cosmopop",
-            "title": "\u30b3\u30b9\u30e2\u30dd\u30c3\u30d7\u30d5\u30a1\u30f3\u30af\u30e9\u30d6",
+            "title": "コスモポップファンクラブ",
             "difficulty": 2,
             "rating": "8.8"
         },
@@ -3042,7 +3049,7 @@
         {
             "idx": 293,
             "id": "dialnote",
-            "title": "\u3060\u3044\u3042\u308b\u306e\u30fc\u3068",
+            "title": "だいあるのーと",
             "difficulty": 2,
             "rating": "8.8"
         },
@@ -3070,7 +3077,7 @@
         {
             "idx": 112,
             "id": "solitarydream",
-            "title": "\u865a\u7a7a\u306e\u5922",
+            "title": "虚空の夢",
             "difficulty": 2,
             "rating": "8.8"
         },
@@ -3098,14 +3105,14 @@
         {
             "idx": 39,
             "id": "clotho",
-            "title": "\u30af\u30ed\u30fc\u30c8\u30fc\u3068\u661f\u306e\u89b3\u6e2c\u8005",
+            "title": "クロートーと星の観測者",
             "difficulty": 4,
             "rating": "8.8"
         },
         {
             "idx": 390,
             "id": "epicurus",
-            "title": "\u30a8\u30d4\u30af\u30ed\u30b9\u306e\u8679\u306f\u3082\u3046\u898b\u3048\u306a\u3044",
+            "title": "エピクロスの虹はもう見えない",
             "difficulty": 4,
             "rating": "8.8"
         },
@@ -3154,7 +3161,7 @@
         {
             "idx": 417,
             "id": "gensounosatellite",
-            "title": "\u5e7b\u60f3\u306e\u30b5\u30c6\u30e9\u30a4\u30c8",
+            "title": "幻想のサテライト",
             "difficulty": 2,
             "rating": "8.7"
         },
@@ -3196,7 +3203,7 @@
         {
             "idx": 294,
             "id": "tsukinimurakumo",
-            "title": "\u6708\u306b\u53e2\u96f2\u83ef\u306b\u98a8",
+            "title": "月に叢雲華に風",
             "difficulty": 2,
             "rating": "8.7"
         },
@@ -3229,8 +3236,8 @@
             "rating": "8.6"
         },
         {
-            "idx": 405,
-            "id": "ashenboundary",
+            "idx": 406,
+            "id": "judgement",
             "title": "Judgement",
             "difficulty": 1,
             "rating": "8.6"
@@ -3245,7 +3252,7 @@
         {
             "idx": 195,
             "id": "aprilshowers",
-            "title": "\u56db\u6708\u306e\u96e8",
+            "title": "四月の雨",
             "difficulty": 2,
             "rating": "8.6"
         },
@@ -3315,7 +3322,7 @@
         {
             "idx": 201,
             "id": "gou",
-            "title": "Misdeed -la bont\u00e9 de Dieu et l'origine du mal-",
+            "title": "Misdeed -la bonté de Dieu et l'origine du mal-",
             "difficulty": 1,
             "rating": "8.5"
         },
@@ -3329,7 +3336,7 @@
         {
             "idx": 343,
             "id": "tothefurthestdream",
-            "title": "\u5f7c\u65b9\u306e\u5922\u3078\u3068",
+            "title": "彼方の夢へと",
             "difficulty": 1,
             "rating": "8.5"
         },
@@ -3343,7 +3350,7 @@
         {
             "idx": 412,
             "id": "vulcanus",
-            "title": "Vulc\u0101nus",
+            "title": "Vulcānus",
             "difficulty": 1,
             "rating": "8.5"
         },
@@ -3378,7 +3385,7 @@
         {
             "idx": 47,
             "id": "harutopia",
-            "title": "\u30cf\u30eb\u30c8\u30d4\u30a2 ~Utopia of Spring~",
+            "title": "ハルトピア ~Utopia of Spring~",
             "difficulty": 2,
             "rating": "8.5"
         },
@@ -3399,7 +3406,7 @@
         {
             "idx": 330,
             "id": "syuten",
-            "title": "sy\u016bten",
+            "title": "syūten",
             "difficulty": 2,
             "rating": "8.5"
         },
@@ -3434,7 +3441,7 @@
         {
             "idx": 416,
             "id": "furetemitai",
-            "title": "\u30d5\u30ec\u30c6\u30df\u30bf\u30a4",
+            "title": "フレテミタイ",
             "difficulty": 2,
             "rating": "8.4"
         },
@@ -3560,7 +3567,7 @@
         {
             "idx": 260,
             "id": "avril",
-            "title": "\u00c4vril -Flicka i krans-",
+            "title": "Ävril -Flicka i krans-",
             "difficulty": 2,
             "rating": "8.3"
         },
@@ -3595,7 +3602,7 @@
         {
             "idx": 167,
             "id": "onefr",
-            "title": "1F\u221a",
+            "title": "1F√",
             "difficulty": 2,
             "rating": "8.2"
         },
@@ -3637,7 +3644,7 @@
         {
             "idx": 418,
             "id": "prayer",
-            "title": "\u30d7\u30ec\u30e4",
+            "title": "プレヤ",
             "difficulty": 2,
             "rating": "8.2"
         },
@@ -3679,7 +3686,7 @@
         {
             "idx": 96,
             "id": "hikari",
-            "title": "\u5149",
+            "title": "光",
             "difficulty": 2,
             "rating": "8.1"
         },
@@ -3707,7 +3714,7 @@
         {
             "idx": 389,
             "id": "desive",
-            "title": "D\u00e9sive",
+            "title": "Désive",
             "difficulty": 1,
             "rating": "8.0"
         },
@@ -3721,7 +3728,7 @@
         {
             "idx": 76,
             "id": "guardina",
-            "title": "\u03b3uar\u03b4ina",
+            "title": "γuarδina",
             "difficulty": 1,
             "rating": "8.0"
         },

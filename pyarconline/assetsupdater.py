@@ -1,5 +1,5 @@
 from pyarconline.utils import DifficultyRatingList
-from pyarconline import ASSETS_PATH, SongList
+from pyarconline import ASSETS_PATH, SongList,SONGLIST_PATH
 import os
 import fnmatch
 
@@ -15,7 +15,7 @@ def find_matching_images(pattern, directory):
 
 
 img_path = r"C:\Users\Bangn\Downloads\Programs\arcaea_6.0.3c\assets\songs"
-songs = SongList("./pyarconline/songlist")
+songs = SongList(SONGLIST_PATH)
 if not os.path.exists(ASSETS_PATH):
     os.mkdir(ASSETS_PATH)
     os.mkdir(os.path.join(ASSETS_PATH, "songs"))

@@ -131,13 +131,10 @@ class SongList:
             self.song_list = json.load(f)
         self.song_list = self.song_list['songs']
 
-    def __getitem__(self, idx: int):
-        return self.song_list[idx]
-
     def __iter__(self):
         return iter(self.song_list)
 
-    async def get_song_info(self, *args):
+    def get_song_info(self, *args):
         """
         accept one parameter, which is either idx or id.
 
@@ -150,7 +147,9 @@ class SongList:
         if len(args) > 1 or len(args) == 0:
             raise TypeError('Invalid arguments')
         if isinstance(args[0], int):
-            return self.song_list[args[0]]
+            for song in self.song_list:
+                if song['idx'] == args[0]:
+                    return song
         elif isinstance(args[0], str):
             for song in self.song_list:
                 if song['id'] == args[0]:
@@ -160,7 +159,7 @@ class SongList:
             raise TypeError('Invalid arguments')
 
     def get_song_name(self, song_idx: int, is_beyond: bool, country: str = 'en'):
-        song = self.song_list[song_idx]
+        song = self.get_song_info(song_idx)
         if 'deleted' in song:
             return ''
         if country in song['title_localized']:
@@ -176,13 +175,13 @@ class SongList:
                     song_name = beyond_song['title_localized']['en']
         return song_name
 
-    async def get_all_song_ids(self):
+    def get_all_song_ids(self):
         ans = []
         for song in self.song_list:
             ans.append(song['id'])
         return ans
 
-    async def get_song_id_idx(self, song_name: str, is_beyond: bool):
+    def get_song_id_idx(self, song_name: str, is_beyond: bool):
         for song in self.song_list:
             curr_song_name = self.get_song_name(song['idx'], is_beyond, 'ja')
             if song_name == curr_song_name:
@@ -356,16 +355,16 @@ class DifficultyRatingList:
                 is_beyond = False
                 if difficulty == 3:
                     is_beyond = True
-                # song_id, song_idx = await self.song_list.get_song_id_idx(title_space, is_beyond)
+                # song_id, song_idx = self.song_list.get_song_id_idx(title_space, is_beyond)
                 try:
-                    song_id, song_idx = await self.song_list.get_song_id_idx(title_space, is_beyond)
+                    song_id, song_idx = self.song_list.get_song_id_idx(title_space, is_beyond)
                 except Exception:
                     try:
-                        song_id, song_idx = await self.song_list.get_song_id_idx(title_nospace, is_beyond)
+                        song_id, song_idx = self.song_list.get_song_id_idx(title_nospace, is_beyond)
                     except Exception as e:
                         print(e)
                         song_idx = int(input(f"Song {title_nospace} not found in database, please specify its idx."))
-                        song_id = (await self.song_list.get_song_info(song_idx))['id']
+                        song_id = self.song_list.get_song_info(song_idx)['id']
                     title_space = self.song_list.get_song_name(song_idx, is_beyond, 'en')
                 self.rating_list.append(
                     {'idx': song_idx, 'id': song_id, 'title': title_space, 'difficulty': difficulty, 'rating': rating})

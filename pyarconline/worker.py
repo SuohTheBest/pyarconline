@@ -16,6 +16,7 @@ from .utils import check_response
 
 sem1 = multiprocessing.Semaphore(0)
 sem2 = multiprocessing.Semaphore(0)
+result_q = queue.Queue()
 
 
 def average(lst):
@@ -83,8 +84,16 @@ class QueryWorker(threading.Thread):
                         heapq.heappush(priority_queue, curr_potential)
                     if len(priority_queue) > 33:
                         heapq.heappop(priority_queue)
-                self.q2.put(workload)
-                sem2.release()
+                json_only = workload['json_only']
+                if json_only:
+                    self.cursor.execute(f'''SELECT * FROM {table_name} ORDER BY potential DESC LIMIT 33''')
+                    rows = self.cursor.fetchall()
+                    columns = [desc[0] for desc in self.cursor.description]
+                    json_result = [dict(zip(columns, row)) for row in rows]
+                    result_q.put(json_result)
+                else:
+                    self.q2.put(workload)
+                    sem2.release()
             elif work_type == 'all':
                 for i in range(song_size):
                     curr_song = self.difficulty_rating[i]
@@ -178,13 +187,19 @@ class DrawingWorker(threading.Thread):
                 user_name = friend['name']
                 # todo : can be improved
                 self.cursor.execute(f'''SELECT user_code FROM user WHERE user_id = {user_id}''')
-                user_code = self.cursor.fetchone()[0]
+                user_code = self.cursor.fetchone()
+                if user_code is None:
+                    user_code = ''
+                else:
+                    user_code = user_code[0]
                 rating = friend['rating']
                 character_id = friend['character']
                 is_uncapped = friend['is_char_uncapped']
                 img = self.draw_b30(user_id, user_name, user_code, rating, character_id, is_uncapped)
                 file_name = user_name + "_" + str(user_id) + '.png'
-                img.save(os.path.join(IMG_SAVE_PATH, file_name))
+                file_path = os.path.join(IMG_SAVE_PATH, file_name)
+                img.save(file_path)
+                result_q.put(file_path)
 
     def draw_b30(self, user_id: int, user_name: str, user_code: str, rating: int,
                  character_id: int,
@@ -412,7 +427,13 @@ class WorkerLauncher:
         self.query_worker = QueryWorker("query-worker", self.q, song_list, difficulty_rating, webapi)
         self.query_worker.start()
 
-    async def start_task(self, user_id: int, work_type: str):
+    async def start_task(self, user_id: int, work_type: str, **kwargs):
         friend = await self.friend_manager.get_friend_info(user_id)
-        self.q.put({"work_type": work_type, "friend": friend})
+        if work_type == 'b30':
+            json_only = False
+            if 'json_only' in kwargs:
+                json_only = kwargs['json_only']
+            self.q.put({"work_type": 'b30', "friend": friend, "json_only": json_only})
         sem1.release()
+        ans = result_q.get()
+        return ans

@@ -18,6 +18,8 @@ CHIERI_BG_PATH = os.path.join(CHIERI_PATH, 'bg.png')
 CHIERI_MASK_PATH = os.path.join(CHIERI_PATH, 'mask.png')
 CHIERI_TABLE_PATH = os.path.join(CHIERI_PATH, 'table.png')
 
+SONGLIST_PATH = os.path.join(ASSETS_PATH, 'songlist')
+UNLOCKS_PATH = os.path.join(ASSETS_PATH, 'unlocks')
 DIAMOND_PATH = os.path.join(ASSETS_PATH, 'diamonds')
 FONT_PATH = os.path.join(ASSETS_PATH, "fonts")
 DIFF_PATH = os.path.join(ASSETS_PATH, "diff")
